@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace Svelto.DataStructures
 {
-    public class ManagedStrategy<T> : IBufferStrategy<T>
+    public struct ManagedStrategy<T> : IBufferStrategy<T>
     {
         IBuffer<T> buffer;
         MB<T> realBuffer;

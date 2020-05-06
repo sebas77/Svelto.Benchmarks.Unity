@@ -4,7 +4,7 @@ using Svelto.Common;
 
 namespace Svelto.DataStructures
 {
-    public class NativeStrategy<T> : IBufferStrategy<T> where T : unmanaged
+    public struct NativeStrategy<T> : IBufferStrategy<T> where T : unmanaged
     {
         IBuffer<T> buffer;
         NB<T> realBuffer;

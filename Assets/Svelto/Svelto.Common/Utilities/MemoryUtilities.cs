@@ -45,13 +45,6 @@ namespace Svelto.Common
 
     public static class MemoryUtilities
     {
-#if UNITY_5_3_OR_NEWER && !UNITY_COLLECTIONS        
-        static MemoryUtilities()
-        {
-            throw new Exception("Svelto.Common MemoryUtilities needs the Unity Collection package");      
-        }
-#endif
-        
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void Free(IntPtr ptr, Allocator allocator)
         {

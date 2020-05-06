@@ -92,7 +92,7 @@ namespace Svelto.DataStructures
         public FasterDictionaryKeyValueEnumerator GetEnumerator()
         {
             return new FasterDictionaryKeyValueEnumerator(this);
-        }
+        }    
         
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public bool TryGetValue(TKey key, out TValue result)

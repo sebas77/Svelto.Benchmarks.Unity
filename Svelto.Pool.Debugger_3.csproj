@@ -53,16 +53,16 @@
      <Compile Include="Assets\Svelto\Svelto.Common\ObjectPool\Unity\Editor\PoolDebuggerCustomInspector.cs" />
      <None Include="Assets\Svelto\Svelto.Common\ObjectPool\Unity\Editor\Svelto.Pool.Debugger.asmdef" />
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b7/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -263,10 +263,10 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0-preview/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0-preview/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b7/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

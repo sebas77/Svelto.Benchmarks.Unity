@@ -79,6 +79,7 @@
      <Compile Include="Assets\Svelto\Svelto.Common\DataStructures\Dictionaries\SetDictionary.cs" />
      <Compile Include="Assets\Svelto\Svelto.Common\DataStructures\Dictionaries\SpanDictionary.cs" />
      <Compile Include="Assets\Svelto\Svelto.Common\DataStructures\Dictionaries\SveltoDictionary.cs" />
+     <Compile Include="Assets\Svelto\Svelto.Common\DataStructures\Dictionaries\SveltoDictionaryGeneric.cs" />
      <Compile Include="Assets\Svelto\Svelto.Common\DataStructures\Dictionaries\ThreadSafeDictionary.cs" />
      <Compile Include="Assets\Svelto\Svelto.Common\DataStructures\FasterDenseList.cs" />
      <Compile Include="Assets\Svelto\Svelto.Common\DataStructures\FasterSparseList.cs" />
@@ -119,16 +120,16 @@
      <Compile Include="Assets\Svelto\Svelto.Common\Utilities\xxHash.cs" />
      <None Include="Assets\Svelto\Svelto.Common\Svelto.Common.asmdef" />
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b7/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -326,16 +327,16 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b7/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Assets/Svelto/Svelto.Common/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Assets/Svelto/Svelto.Common/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.Buffers">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Assets/Svelto/Svelto.Common/System.Buffers.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Assets/Svelto/Svelto.Common/System.Buffers.dll</HintPath>
  </Reference>
  <Reference Include="System.Memory">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Assets/Svelto/Svelto.Common/System.Memory.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Assets/Svelto/Svelto.Common/System.Memory.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Prgdir/Svelto/Svelto.Benchmarks.Unity/Svelto.Benchmarks.Unity/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b7/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

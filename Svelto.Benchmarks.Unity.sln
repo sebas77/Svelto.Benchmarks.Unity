@@ -1,36 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svelto.Common_3", "Svelto.Common_3.csproj", "{14238fc6-b04a-1502-f394-5867f554fd37}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svelto.ECS", "Svelto.ECS.csproj", "{a95c933f-b19c-149b-3d49-f53f3bf7279e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svelto.Common", "Svelto.Common.csproj", "{b5125be7-3481-b803-a382-60bcae17c50f}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks.csproj", "{28f6e0ab-b16e-2570-ae59-876100627dd2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svelto.Pool.Debugger_3", "Svelto.Pool.Debugger_3.csproj", "{7659f306-fa25-85f1-80e1-d45b4bef0ce1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svelto.Pool.Debugger", "Svelto.Pool.Debugger.csproj", "{e130442d-1cbc-0be1-a603-1f8c56492396}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{14238fc6-b04a-1502-f394-5867f554fd37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14238fc6-b04a-1502-f394-5867f554fd37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14238fc6-b04a-1502-f394-5867f554fd37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14238fc6-b04a-1502-f394-5867f554fd37}.Release|Any CPU.Build.0 = Release|Any CPU
 		{a95c933f-b19c-149b-3d49-f53f3bf7279e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a95c933f-b19c-149b-3d49-f53f3bf7279e}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{a95c933f-b19c-149b-3d49-f53f3bf7279e}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{a95c933f-b19c-149b-3d49-f53f3bf7279e}.Release|Any CPU.Build.0 = Release|Any CPU
+		{b5125be7-3481-b803-a382-60bcae17c50f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b5125be7-3481-b803-a382-60bcae17c50f}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28f6e0ab-b16e-2570-ae59-876100627dd2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{28f6e0ab-b16e-2570-ae59-876100627dd2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{28f6e0ab-b16e-2570-ae59-876100627dd2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{28f6e0ab-b16e-2570-ae59-876100627dd2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7659f306-fa25-85f1-80e1-d45b4bef0ce1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7659f306-fa25-85f1-80e1-d45b4bef0ce1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7659f306-fa25-85f1-80e1-d45b4bef0ce1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7659f306-fa25-85f1-80e1-d45b4bef0ce1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{e130442d-1cbc-0be1-a603-1f8c56492396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e130442d-1cbc-0be1-a603-1f8c56492396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

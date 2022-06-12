@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svelto.ECS", "Svelto.ECS.csproj", "{3616d0a6-ce08-18a7-350e-b470b8a33804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svelto.Common", "Svelto.Common.csproj", "{dc5e6819-31ca-497d-cfdc-4bb2f5da08fb}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks.csproj", "{26654ac1-4457-a1bf-3402-093aaa0d5cbb}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svelto.Pool.Debugger", "Svelto.Pool.Debugger.csproj", "{2e26bcf1-d00d-b9b6-f9f5-4bf59e8ce95a}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3616d0a6-ce08-18a7-350e-b470b8a33804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3616d0a6-ce08-18a7-350e-b470b8a33804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{dc5e6819-31ca-497d-cfdc-4bb2f5da08fb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{dc5e6819-31ca-497d-cfdc-4bb2f5da08fb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26654ac1-4457-a1bf-3402-093aaa0d5cbb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26654ac1-4457-a1bf-3402-093aaa0d5cbb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2e26bcf1-d00d-b9b6-f9f5-4bf59e8ce95a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2e26bcf1-d00d-b9b6-f9f5-4bf59e8ce95a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

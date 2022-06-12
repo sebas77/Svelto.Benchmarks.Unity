@@ -15,12 +15,17 @@ namespace Tests
     
     public class EntitySubmissionBenchmark
     {
+        string[] markers =
+        {
+            "Add operations"
+        };
+        
         [Test, Performance]
         public void TestEntitySubmissionPerformance()
         {
             SimpleEntitiesSubmissionScheduler scheduler = new SimpleEntitiesSubmissionScheduler();
             
-            EnginesRoot    enginesRoot;
+            EnginesRoot    enginesRoot = default;
             IEntityFactory entityFactory = default;
             
             Measure.Method(() =>
@@ -31,9 +36,12 @@ namespace Tests
                         entityFactory.BuildEntity<EntityDescriptor>(i, TestGroups.Group);
                 }
 
-                using (Measure.Scope("submit 1000 empty entities"))
+                using (Measure.ProfilerMarkers(markers))
                 {
-                    scheduler.SubmitEntities();
+                    using (Measure.Scope("submit 1000 empty entities"))
+                    {
+                        scheduler.SubmitEntities();
+                    }
                 }
             }).WarmupCount(5).MeasurementCount(10).SetUp(() =>
                 {
@@ -41,6 +49,7 @@ namespace Tests
                     entityFactory = enginesRoot.GenerateEntityFactory();
                     
                     entityFactory.PreallocateEntitySpace<EntityDescriptor>(TestGroups.Group, 1000);
+                    enginesRoot.Dispose();
                 }
                 ).Run();
             
@@ -62,8 +71,8 @@ namespace Tests
                     entityFactory = enginesRoot.GenerateEntityFactory();
                     
                     for (int i = 0; i < 10; i++)
-                    entityFactory.PreallocateEntitySpace<EntityDescriptor>(TestGroups.Group + (uint) i, 100);
-                    
+                        entityFactory.PreallocateEntitySpace<EntityDescriptor>(TestGroups.Group + (uint) i, 100);
+                    enginesRoot.Dispose();                    
                 }
             ).Run();
         }

@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 762.6667
-    y: 154
-    width: 1572
-    height: 982
-  m_ShowMode: 0
-  m_Title: Test Report
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 640, y: 501}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
+    x: -1706.6666
+    y: 42.666668
+    width: 1706.6667
+    height: 1024
+  m_ShowMode: 4
+  m_Title: Console
+  m_RootView: {fileID: 9}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -44,109 +44,11 @@ MonoBehaviour:
     height: 759.3334
   m_ShowMode: 0
   m_Title: Test Runner
-  m_RootView: {fileID: 8}
-  m_MinSize: {x: 100, y: 123}
-  m_MaxSize: {x: 4000, y: 4023}
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 100, y: 121}
+  m_MaxSize: {x: 4000, y: 4021}
   m_Maximized: 0
 --- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: 771.3334
-    y: 224
-    width: 1362
-    height: 1037.3334
-  m_ShowMode: 0
-  m_Title: Package Manager
-  m_RootView: {fileID: 10}
-  m_MinSize: {x: 800, y: 271}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: -1920
-    y: 55
-    width: 1920
-    height: 1157
-  m_ShowMode: 4
-  m_Title: Scene
-  m_RootView: {fileID: 15}
-  m_MinSize: {x: 875, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestReportWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1572
-    height: 982
-  m_MinSize: {x: 640, y: 501}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_ActualView: {fileID: 21}
-  m_Panes:
-  - {fileID: 21}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1572
-    height: 982
-  m_MinSize: {x: 640, y: 501}
-  m_MaxSize: {x: 4000, y: 4021}
-  vertical: 0
-  controlID: 205
---- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,14 +67,14 @@ MonoBehaviour:
     y: 0
     width: 1666
     height: 759.3334
-  m_MinSize: {x: 100, y: 123}
-  m_MaxSize: {x: 4000, y: 4023}
-  m_ActualView: {fileID: 22}
+  m_MinSize: {x: 100, y: 121}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 22}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &8
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,68 +87,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1666
     height: 759.3334
-  m_MinSize: {x: 100, y: 123}
-  m_MaxSize: {x: 4000, y: 4023}
-  vertical: 0
-  controlID: 68
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: PackageManagerWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1362
-    height: 1037.3334
-  m_MinSize: {x: 800, y: 250}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 23}
-  m_Panes:
-  - {fileID: 23}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1362
-    height: 1037.3334
-  m_MinSize: {x: 800, y: 271}
+  m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 26
---- !u!114 &11
+  controlID: 117
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -259,19 +111,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 18}
   - {fileID: 12}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 1107
+    width: 1706.6666
+    height: 974
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
---- !u!114 &12
+  controlID: 149
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -286,18 +138,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1551
+    x: 1378.6666
     y: 0
-    width: 369
-    height: 1107
+    width: 328
+    height: 974
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 25}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 25}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &13
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -314,16 +166,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 204
-    height: 758
+    width: 181.33333
+    height: 667.3333
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 26}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 26}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &14
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -339,18 +191,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 758
-    width: 1551
-    height: 349
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 29}
+    y: 667.3333
+    width: 1378.6666
+    height: 306.6667
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 24}
-  - {fileID: 29}
+  - {fileID: 16}
+  - {fileID: 21}
   m_Selected: 1
   m_LastSelected: 0
---- !u!114 &15
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -363,22 +215,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 16}
+  - {fileID: 10}
+  - {fileID: 5}
   - {fileID: 11}
-  - {fileID: 17}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 1157
+    width: 1706.6666
+    height: 1024
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &16
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -395,12 +247,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1706.6666
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &17
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -416,37 +268,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1137
-    width: 1920
+    y: 1004
+    width: 1706.6666
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 19}
-  - {fileID: 14}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1551
-    height: 1107
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 100
---- !u!114 &19
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -460,18 +287,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 13}
-  - {fileID: 20}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1551
-    height: 758
+    width: 1378.6666
+    height: 974
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 194
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 14}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1378.6666
+    height: 667.3333
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 101
---- !u!114 &20
+  controlID: 195
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -486,201 +338,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 204
+    x: 181.33333
     y: 0
-    width: 1347
-    height: 758
+    width: 1197.3333
+    height: 667.3333
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 27}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 27}
-  - {fileID: 28}
+  - {fileID: 19}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &21
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4272062d6dbd273438736c85848ea974, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 640, y: 480}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Test Report
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 762.6667
-    y: 154
-    width: 1572
-    height: 961
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_colorWhite: {r: 1, g: 1, b: 1, a: 1}
-  m_colorBarBackground: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_colorBoxAndWhiskerBackground: {r: 0.4, g: 0.4, b: 0.4, a: 1}
-  m_colorBar: {r: 0.95, g: 0.95, b: 0.95, a: 1}
-  m_colorStandardLine: {r: 1, g: 1, b: 1, a: 1}
-  m_colorMedianLine: {r: 0.2, g: 0.5, b: 1, a: 0.5}
-  m_colorMedianText: {r: 0.4, g: 0.7, b: 1, a: 1}
-  m_colorWarningText: {r: 1, g: 0, b: 0, a: 1}
-  m_testListTreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 00000000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-  m_testListMulticolumnHeaderState:
-    m_Columns:
-    - width: 69.933334
-      sortedAscending: 1
-      headerContent:
-        m_Text: Index
-        m_Image: {fileID: 0}
-        m_Tooltip: Ordering from the test run
-      contextMenuText: 
-      headerTextAlignment: 0
-      sortingArrowAlignment: 0
-      minWidth: 50
-      maxWidth: 1000000
-      autoResize: 1
-      allowToggleVisibility: 1
-      canSort: 1
-      userData: 0
-    - width: 500
-      sortedAscending: 1
-      headerContent:
-        m_Text: Name
-        m_Image: {fileID: 0}
-        m_Tooltip: Name of test
-      contextMenuText: 
-      headerTextAlignment: 0
-      sortingArrowAlignment: 0
-      minWidth: 100
-      maxWidth: 1000000
-      autoResize: 0
-      allowToggleVisibility: 0
-      canSort: 1
-      userData: 0
-    - width: 104.9
-      sortedAscending: 0
-      headerContent:
-        m_Text: Groups
-        m_Image: {fileID: 0}
-        m_Tooltip: Number of Sample Groups
-      contextMenuText: 
-      headerTextAlignment: 0
-      sortingArrowAlignment: 0
-      minWidth: 50
-      maxWidth: 1000000
-      autoResize: 1
-      allowToggleVisibility: 1
-      canSort: 1
-      userData: 0
-    - width: 174.83333
-      sortedAscending: 0
-      headerContent:
-        m_Text: SD
-        m_Image: {fileID: 0}
-        m_Tooltip: Standard Deviation
-      contextMenuText: 
-      headerTextAlignment: 0
-      sortingArrowAlignment: 0
-      minWidth: 50
-      maxWidth: 1000000
-      autoResize: 1
-      allowToggleVisibility: 1
-      canSort: 1
-      userData: 0
-    - width: 174.83333
-      sortedAscending: 0
-      headerContent:
-        m_Text: Deviation
-        m_Image: {fileID: 0}
-        m_Tooltip: Standard Deviation / Median
-      contextMenuText: 
-      headerTextAlignment: 0
-      sortingArrowAlignment: 0
-      minWidth: 50
-      maxWidth: 1000000
-      autoResize: 1
-      allowToggleVisibility: 1
-      canSort: 1
-      userData: 0
-    - width: 174.83333
-      sortedAscending: 0
-      headerContent:
-        m_Text: Median
-        m_Image: {fileID: 0}
-        m_Tooltip: Median value
-      contextMenuText: 
-      headerTextAlignment: 0
-      sortingArrowAlignment: 0
-      minWidth: 50
-      maxWidth: 1000000
-      autoResize: 1
-      allowToggleVisibility: 1
-      canSort: 1
-      userData: 0
-    - width: 174.83333
-      sortedAscending: 0
-      headerContent:
-        m_Text: Min
-        m_Image: {fileID: 0}
-        m_Tooltip: Min value
-      contextMenuText: 
-      headerTextAlignment: 0
-      sortingArrowAlignment: 0
-      minWidth: 50
-      maxWidth: 1000000
-      autoResize: 1
-      allowToggleVisibility: 1
-      canSort: 1
-      userData: 0
-    - width: 174.83333
-      sortedAscending: 0
-      headerContent:
-        m_Text: Max
-        m_Image: {fileID: 0}
-        m_Tooltip: Max value
-      contextMenuText: 
-      headerTextAlignment: 0
-      sortingArrowAlignment: 0
-      minWidth: 50
-      maxWidth: 1000000
-      autoResize: 1
-      allowToggleVisibility: 1
-      canSort: 1
-      userData: 0
-    m_VisibleColumns: 0000000001000000020000000400000003000000050000000600000007000000
-    m_SortedColumns: 00000000
---- !u!114 &22
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -709,7 +379,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 130
+    ID: 246
     splitterInitialOffset: 381.66666
     currentActiveSplitter: -1
     realSizes:
@@ -734,15 +404,15 @@ MonoBehaviour:
     oldSplitSize: 0
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 22}
+    m_Window: {fileID: 15}
     m_NewResultList:
     - id: 1006
       uniqueId: '[Svelto.Unity.Benchmarks][suite]'
       name: Svelto.Unity.Benchmarks
       fullName: Svelto.Unity.Benchmarks
-      resultStatus: 1
-      duration: 0.585054
-      messages: 
+      resultStatus: 2
+      duration: 0.3278693
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -756,9 +426,9 @@ MonoBehaviour:
       uniqueId: '[Benchmarks.dll][suite]'
       name: Benchmarks.dll
       fullName: C:/Prgdir/Svelto/Svelto.ECS/Svelto.ECS.Benchmarks.Unity/Library/ScriptAssemblies/Benchmarks.dll
-      resultStatus: 1
-      duration: 0.2993044
-      messages: 
+      resultStatus: 2
+      duration: 0.2545325
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -772,9 +442,9 @@ MonoBehaviour:
       uniqueId: Benchmarks.dll/[Benchmarks][Tests][suite]
       name: Tests
       fullName: Tests
-      resultStatus: 1
-      duration: 0.2929002
-      messages: 
+      resultStatus: 2
+      duration: 0.2478063
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -789,7 +459,7 @@ MonoBehaviour:
       name: EntityCollectionBenchmark
       fullName: Tests.EntityCollectionBenchmark
       resultStatus: 1
-      duration: 0.9318374
+      duration: 0.4947998
       messages: 
       output: 
       stacktrace: 
@@ -805,22 +475,23 @@ MonoBehaviour:
       name: TestCache
       fullName: Tests.EntityCollectionBenchmark.TestCache
       resultStatus: 1
-      duration: 0.1481783
+      duration: 0.242276
       messages: 
-      output: 'TestCache Millisecond Median:0.23 Min:0.22 Max:3.71 Avg:0.26 Std:0.30
-        SampleCount: 130 Sum: 33.78
+      output: 'TestCache Millisecond Median:0.19 Min:0.18 Max:4.73 Avg:0.22 Std:0.40
+        SampleCount: 130 Sum: 28.93
 
-        Time Millisecond Median:2.34 Min:2.31
-        Max:2.49 Avg:2.35 Std:0.05 SampleCount: 10 Sum: 23.54
+        Time Millisecond Median:1.87 Min:1.81
+        Max:1.97 Avg:1.88 Std:0.06 SampleCount: 10 Sum: 18.75
 
+        
 
+        ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestCache","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"TestCache","Unit":2,"IncreaseIsBetter":false,"Samples":[4.7318,0.22740000000000003,0.1913,0.1907,0.1908,0.19240000000000002,0.19060000000000003,0.19060000000000003,0.2316,0.19240000000000002,0.191,0.1904,0.1903,0.1904,0.19010000000000003,0.1908,0.1903,0.1903,0.1902,0.1904,0.1905,0.1905,0.1905,0.1907,0.19060000000000003,0.1905,0.19090000000000002,0.1908,0.1907,0.1905,0.19840000000000003,0.19060000000000003,0.1908,0.1904,0.191,0.191,0.1903,0.1905,0.22130000000000003,0.1796,0.18760000000000003,0.1797,0.1784,0.1784,0.1778,0.1782,0.17800000000000003,0.17830000000000002,0.1784,0.17830000000000002,0.1782,0.18680000000000003,0.1827,0.1784,0.1819,0.17800000000000003,0.1781,0.17800000000000003,0.1779,0.1779,0.1779,0.1779,0.17800000000000003,0.17800000000000003,0.17800000000000003,0.1837,0.1827,0.2015,0.1801,0.1779,0.1779,0.19840000000000003,0.17930000000000002,0.20090000000000003,0.21280000000000003,0.1802,0.1779,0.1781,0.17800000000000003,0.1781,0.1779,0.1781,0.1779,0.17800000000000003,0.20070000000000003,0.18030000000000002,0.2041,0.18760000000000003,0.1779,0.17800000000000003,0.1777,0.1781,0.1782,0.17800000000000003,0.1778,0.20370000000000003,0.1778,0.1875,0.185,0.17800000000000003,0.17800000000000003,0.1779,0.17800000000000003,0.1781,0.20900000000000003,0.2092,0.18030000000000002,0.17800000000000003,0.1942,0.1782,0.1981,0.1821,0.1996,0.2093,0.1951,0.2111,0.18050000000000003,0.17800000000000003,0.1985,0.1826,0.2025,0.1781,0.17830000000000002,0.1961,0.1907,0.1907,0.2131,0.19360000000000003,0.1907,0.19090000000000002],"Min":0.1777,"Max":4.7318,"Median":0.18760000000000003,"Average":0.2225000000000002,"StandardDeviation":0.3971707040478264,"Sum":28.925000000000027},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[1.9540000000000007,1.806700000000001,1.8099000000000026,1.8327999999999989,1.875,1.8506,1.8367000000000005,1.8743999999999979,1.9704999999999978,1.9400000000000013],"Min":1.806700000000001,"Max":1.9704999999999978,"Median":1.8743999999999979,"Average":1.8750600000000002,"StandardDeviation":0.05686173053996811,"Sum":18.750600000000003}]}
 
-        ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestCache","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"TestCache","Unit":2,"IncreaseIsBetter":false,"Samples":[3.7115,0.2605,0.22970000000000002,0.23120000000000003,0.22920000000000002,0.23140000000000003,0.22890000000000003,0.231,0.2291,0.23290000000000003,0.2291,0.24230000000000002,0.229,0.233,0.2291,0.2321,0.2315,0.23270000000000003,0.229,0.22890000000000003,0.2335,0.2291,0.232,0.229,0.2464,0.23020000000000002,0.2313,0.22820000000000002,0.23020000000000002,0.2281,0.2341,0.2341,0.2286,0.24280000000000002,0.23,0.2351,0.22840000000000003,0.2281,0.2313,0.22820000000000002,0.2333,0.23340000000000003,0.2285,0.22820000000000002,0.2303,0.22820000000000002,0.2301,0.2281,0.23120000000000003,0.22820000000000002,0.23020000000000002,0.2281,0.2313,0.22840000000000003,0.23370000000000003,0.2283,0.23270000000000003,0.2293,0.2283,0.23070000000000003,0.2281,0.2315,0.2283,0.23190000000000003,0.22820000000000002,0.2301,0.2281,0.2442,0.2306,0.23090000000000003,0.22820000000000002,0.2313,0.2283,0.23070000000000003,0.24280000000000002,0.2281,0.23440000000000003,0.22820000000000002,0.2456,0.22990000000000003,0.2308,0.2281,0.2328,0.2283,0.2301,0.23500000000000002,0.2505,0.2174,0.21910000000000003,0.21730000000000003,0.21730000000000003,0.2679,0.22010000000000003,0.2783,0.2492,0.2541,0.2308,0.2288,0.23440000000000003,0.21910000000000003,0.21730000000000003,0.2541,0.2174,0.21930000000000003,0.21730000000000003,0.2394,0.2474,0.23850000000000003,0.2331,0.2371,0.23450000000000002,0.25,0.23340000000000003,0.2253,0.2177,0.21730000000000003,0.264,0.2174,0.2192,0.21730000000000003,0.2726,0.249,0.2862,0.21760000000000002,0.2757,0.2175,0.25,0.2376,0.2325,0.2283],"Min":0.21730000000000003,"Max":3.7115,"Median":0.2303,"Average":0.25987769230769239,"StandardDeviation":0.3041440261721623,"Sum":33.78410000000001},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[2.3459000000000005,2.3202999999999998,2.3207999999999986,2.333599999999997,2.347899999999999,2.3072000000000019,2.4179999999999994,2.3379999999999976,2.3155,2.4883000000000026],"Min":2.3072000000000019,"Max":2.4883000000000026,"Median":2.3379999999999976,"Average":2.3535499999999995,"StandardDeviation":0.05368041076594023,"Sum":23.535499999999997}]}
-
-        ##performancetestruninfo2:{"TestSuite":"Playmode","Date":1655037286589,"Player":{"Development":true,"ScreenWidth":3840,"ScreenHeight":2160,"ScreenRefreshRate":60,"Fullscreen":false,"Vsync":0,"AntiAliasing":0,"Batchmode":false,"RenderThreadingMode":"MultiThreaded","GpuSkinning":false,"Platform":"WindowsEditor","ColorSpace":"Gamma","AnisotropicFiltering":"Disable","BlendWeights":"OneBone","GraphicsApi":"Direct3D11","ScriptingBackend":"Mono2x","AndroidTargetSdkVersion":"AndroidApiLevelAuto","AndroidBuildSystem":"Gradle","BuildTarget":"StandaloneWindows64","StereoRenderingPath":"MultiPass"},"Hardware":{"OperatingSystem":"Windows
-        10  (10.0.19043) 64bit","DeviceModel":"System Product Name (System manufacturer)","DeviceName":"SEB-SAM","ProcessorType":"Intel(R)
-        Core(TM) i7-6700K CPU @ 4.00GHz","ProcessorCount":8,"GraphicsDeviceName":"NVIDIA
-        GeForce GTX 1060 6GB","SystemMemorySizeMB":32707},"Editor":{"Version":"2021.3.4f1","Branch":"2021.3/staging","Changeset":"cb45f9cae8b7","Date":1653503040},"Dependencies":["com.sebaslab.svelto.common@3.3.2","com.sebaslab.svelto.ecs@3.3.2","com.unity.burst@1.7.0","com.unity.ide.rider@3.0.14","com.unity.ide.visualstudio@2.0.15","com.unity.ide.vscode@1.2.5","com.unity.jobs@0.11.0-preview.6","com.unity.test-framework@1.1.31","com.unity.test-framework.performance@2.8.1-preview","com.unity.textmeshpro@3.0.6","com.unity.timeline@1.6.4","com.unity.toolchain.win-x86_64-linux-x86_64@1.0.0","com.unity.ugui@1.0.0","com.unity.modules.ai@1.0.0","com.unity.modules.androidjni@1.0.0","com.unity.modules.animation@1.0.0","com.unity.modules.assetbundle@1.0.0","com.unity.modules.audio@1.0.0","com.unity.modules.cloth@1.0.0","com.unity.modules.director@1.0.0","com.unity.modules.imageconversion@1.0.0","com.unity.modules.imgui@1.0.0","com.unity.modules.jsonserialize@1.0.0","com.unity.modules.particlesystem@1.0.0","com.unity.modules.physics@1.0.0","com.unity.modules.physics2d@1.0.0","com.unity.modules.screencapture@1.0.0","com.unity.modules.terrain@1.0.0","com.unity.modules.terrainphysics@1.0.0","com.unity.modules.tilemap@1.0.0","com.unity.modules.ui@1.0.0","com.unity.modules.uielements@1.0.0","com.unity.modules.umbra@1.0.0","com.unity.modules.unityanalytics@1.0.0","com.unity.modules.unitywebrequest@1.0.0","com.unity.modules.unitywebrequestassetbundle@1.0.0","com.unity.modules.unitywebrequestaudio@1.0.0","com.unity.modules.unitywebrequesttexture@1.0.0","com.unity.modules.unitywebrequestwww@1.0.0","com.unity.modules.vehicles@1.0.0","com.unity.modules.video@1.0.0","com.unity.modules.vr@1.0.0","com.unity.modules.wind@1.0.0","com.unity.modules.xr@1.0.0","com.unity.modules.subsystems@1.0.0","com.unity.modules.uielementsnative@1.0.0","com.unity.sysroot@1.0.0","com.unity.sysroot.linux-x86_64@1.0.0","com.unity.ext.nunit@1.0.6","com.unity.collections@1.2.3","com.unity.mathematics@1.2.6","org.nuget.system.runtime.compilerservices.unsafe@5.0.0"],"Results":[]}
+        ##performancetestruninfo2:{"TestSuite":"Playmode","Date":1672230935140,"Player":{"Development":true,"ScreenWidth":2560,"ScreenHeight":1600,"ScreenRefreshRate":165,"Fullscreen":false,"Vsync":0,"AntiAliasing":0,"Batchmode":false,"RenderThreadingMode":"MultiThreaded","GpuSkinning":false,"Platform":"WindowsEditor","ColorSpace":"Gamma","AnisotropicFiltering":"Disable","BlendWeights":"OneBone","GraphicsApi":"Direct3D11","ScriptingBackend":"Mono2x","AndroidTargetSdkVersion":"AndroidApiLevelAuto","AndroidBuildSystem":"Gradle","BuildTarget":"StandaloneWindows64","StereoRenderingPath":"MultiPass"},"Hardware":{"OperatingSystem":"Windows
+        11  (10.0.22621) 64bit","DeviceModel":"ROG Zephyrus M16 GU603ZW_GU603ZW (ASUSTeK
+        COMPUTER INC.)","DeviceName":"LAPTOP-JSJ0CL11","ProcessorType":"12th Gen
+        Intel(R) Core(TM) i9-12900H","ProcessorCount":20,"GraphicsDeviceName":"NVIDIA
+        GeForce RTX 3070 Ti Laptop GPU","SystemMemorySizeMB":32460},"Editor":{"Version":"2021.3.16f1","Branch":"2021.3/staging","Changeset":"4016570cf34f","Date":1670847685},"Dependencies":["com.sebaslab.svelto.common@3.3.2","com.sebaslab.svelto.ecs@3.3.2","com.unity.burst@1.7.0","com.unity.ide.rider@3.0.16","com.unity.ide.visualstudio@2.0.16","com.unity.ide.vscode@1.2.5","com.unity.test-framework@1.1.31","com.unity.test-framework.performance@2.8.1-preview","com.unity.textmeshpro@3.0.6","com.unity.timeline@1.6.4","com.unity.toolchain.win-x86_64-linux-x86_64@1.0.0","com.unity.ugui@1.0.0","com.unity.modules.ai@1.0.0","com.unity.modules.androidjni@1.0.0","com.unity.modules.animation@1.0.0","com.unity.modules.assetbundle@1.0.0","com.unity.modules.audio@1.0.0","com.unity.modules.cloth@1.0.0","com.unity.modules.director@1.0.0","com.unity.modules.imageconversion@1.0.0","com.unity.modules.imgui@1.0.0","com.unity.modules.jsonserialize@1.0.0","com.unity.modules.particlesystem@1.0.0","com.unity.modules.physics@1.0.0","com.unity.modules.physics2d@1.0.0","com.unity.modules.screencapture@1.0.0","com.unity.modules.terrain@1.0.0","com.unity.modules.terrainphysics@1.0.0","com.unity.modules.tilemap@1.0.0","com.unity.modules.ui@1.0.0","com.unity.modules.uielements@1.0.0","com.unity.modules.umbra@1.0.0","com.unity.modules.unityanalytics@1.0.0","com.unity.modules.unitywebrequest@1.0.0","com.unity.modules.unitywebrequestassetbundle@1.0.0","com.unity.modules.unitywebrequestaudio@1.0.0","com.unity.modules.unitywebrequesttexture@1.0.0","com.unity.modules.unitywebrequestwww@1.0.0","com.unity.modules.vehicles@1.0.0","com.unity.modules.video@1.0.0","com.unity.modules.vr@1.0.0","com.unity.modules.wind@1.0.0","com.unity.modules.xr@1.0.0","com.unity.modules.subsystems@1.0.0","com.unity.modules.uielementsnative@1.0.0","com.unity.sysroot@1.0.0","com.unity.sysroot.linux-x86_64@1.0.0","com.unity.ext.nunit@1.0.6","com.unity.mathematics@1.2.6","org.nuget.system.runtime.compilerservices.unsafe@5.0.0"],"Results":[]}
 
 '
       stacktrace: 
@@ -837,17 +508,17 @@ MonoBehaviour:
       name: TestCache2
       fullName: Tests.EntityCollectionBenchmark.TestCache2
       resultStatus: 1
-      duration: 0.1356913
+      duration: 0.1675949
       messages: 
-      output: 'TestCache2 Millisecond Median:0.52 Min:0.52 Max:1.46 Avg:0.53 Std:0.08
-        SampleCount: 130 Sum: 68.63
+      output: 'TestCache2 Millisecond Median:0.28 Min:0.26 Max:0.85 Avg:0.29 Std:0.06
+        SampleCount: 130 Sum: 38.13
 
-        Time Millisecond Median:5.24 Min:5.19
-        Max:5.26 Avg:5.23 Std:0.03 SampleCount: 10 Sum: 52.26
+        Time Millisecond Median:2.89 Min:2.70
+        Max:3.21 Avg:2.88 Std:0.13 SampleCount: 10 Sum: 28.82
 
+        
 
-
-        ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestCache2","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"TestCache2","Unit":2,"IncreaseIsBetter":false,"Samples":[1.4608,0.5321,0.5192,0.5181,0.5166000000000001,0.5191,0.5169,0.5178,0.5185000000000001,0.5184,0.5168,0.5197,0.5192,0.5297000000000001,0.5214,0.5191,0.5750000000000001,0.5238,0.5319,0.5243,0.5198,0.5184,0.5167,0.5176000000000001,0.5168,0.5164,0.5177,0.5292,0.5194,0.5171,0.5166000000000001,0.5186000000000001,0.517,0.5289,0.5218,0.5185000000000001,0.517,0.5191,0.5341,0.5201,0.5189,0.5193,0.5172,0.518,0.5168,0.5168,0.5178,0.5168,0.5181,0.5169,0.5165000000000001,0.5341,0.5199,0.5284,0.5209,0.5189,0.5306000000000001,0.5232,0.5171,0.5183,0.519,0.5178,0.5186000000000001,0.5175000000000001,0.5164,0.5167,0.5179,0.5162,0.518,0.5183,0.5184,0.5178,0.518,0.5344,0.5199,0.5184,0.5224,0.5279,0.5202,0.5187,0.5233,0.5187,0.517,0.5165000000000001,0.5292,0.5171,0.5179,0.5167,0.5193,0.5167,0.5165000000000001,0.5178,0.5166000000000001,0.5553,0.5206000000000001,0.5199,0.519,0.5307000000000001,0.5207,0.519,0.517,0.5165000000000001,0.5175000000000001,0.5182,0.5179,0.5167,0.5164,0.5165000000000001,0.5265000000000001,0.5166000000000001,0.5176000000000001,0.5184,0.5367000000000001,0.5253,0.5219,0.5172,0.52,0.536,0.5223,0.519,0.5203,0.5173,0.5176000000000001,0.5165000000000001,0.5164,0.5166000000000001,0.518,0.5168,0.5179,0.5183],"Min":0.5162,"Max":1.4608,"Median":0.5184,"Average":0.5279584615384615,"StandardDeviation":0.08246133899229608,"Sum":68.63459999999999},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[5.2439,5.1949000000000009,5.249899999999997,5.197800000000001,5.241900000000001,5.212699999999998,5.262599999999999,5.197800000000001,5.258899999999997,5.195499999999996],"Min":5.1949000000000009,"Max":5.262599999999999,"Median":5.241900000000001,"Average":5.225589999999999,"StandardDeviation":0.026887820662894556,"Sum":52.25589999999999}]}
+        ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestCache2","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"TestCache2","Unit":2,"IncreaseIsBetter":false,"Samples":[0.8534,0.2837,0.3145,0.28800000000000006,0.30110000000000006,0.2968,0.2873,0.2911,0.2949,0.3025,0.3017,0.302,0.3019,0.3018,0.3069,0.3024,0.3019,0.3014,0.30160000000000006,0.29460000000000005,0.2833,0.2919,0.29200000000000006,0.2831,0.2816,0.2817,0.2914,0.2816,0.28200000000000005,0.2924,0.2821,0.28190000000000006,0.28240000000000006,0.2897,0.2821,0.2841,0.3317,0.3078,0.2926,0.302,0.3017,0.3018,0.2861,0.2903,0.2818,0.2817,0.2897,0.2833,0.28190000000000006,0.2818,0.28250000000000005,0.3181,0.2899,0.2944,0.30160000000000006,0.2887,0.2821,0.28240000000000006,0.28200000000000005,0.2818,0.2947,0.2818,0.28190000000000006,0.2817,0.28200000000000005,0.29000000000000006,0.2863,0.29600000000000006,0.3013,0.3014,0.3015,0.5394,0.3014,0.3014,0.3015,0.3014,0.3004,0.2823,0.2913,0.2816,0.2909,0.28150000000000005,0.28190000000000006,0.2818,0.2904,0.3002,0.2843,0.2886,0.28200000000000005,0.2748,0.2592,0.259,0.2702,0.25930000000000005,0.2811,0.265,0.2645,0.26480000000000006,0.2833,0.2854,0.2795,0.2792,0.276,0.3054,0.28290000000000006,0.28200000000000005,0.28190000000000006,0.2844,0.2801,0.2701,0.2727,0.2775,0.26990000000000005,0.2725,0.29000000000000006,0.27740000000000006,0.28290000000000006,0.27590000000000006,0.28,0.2801,0.2827,0.2756,0.2757,0.27940000000000006,0.2765,0.2791,0.2757,0.2758,0.276,0.2726],"Min":0.259,"Max":0.8534,"Median":0.2833,"Average":0.2932884615384615,"StandardDeviation":0.05531195535619259,"Sum":38.1275},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[2.9495000000000006,2.8865999999999998,2.9138,2.9069000000000004,3.2101000000000008,2.863000000000003,2.6987999999999987,2.829900000000002,2.7852999999999996,2.776600000000002],"Min":2.6987999999999987,"Max":3.2101000000000008,"Median":2.8865999999999998,"Average":2.8820500000000006,"StandardDeviation":0.1307501223708798,"Sum":28.820500000000007}]}
 
 '
       stacktrace: 
@@ -864,17 +535,17 @@ MonoBehaviour:
       name: TestCache3
       fullName: Tests.EntityCollectionBenchmark.TestCache3
       resultStatus: 1
-      duration: 0.08935
+      duration: 0.1468828
       messages: 
-      output: 'TestCache Millisecond Median:0.23 Min:0.23 Max:0.26 Avg:0.23 Std:0.00
-        SampleCount: 130 Sum: 29.89
+      output: 'TestCache Millisecond Median:0.18 Min:0.16 Max:0.22 Avg:0.17 Std:0.01
+        SampleCount: 130 Sum: 22.45
 
-        Time Millisecond Median:2.32 Min:2.31
-        Max:2.34 Avg:2.32 Std:0.01 SampleCount: 10 Sum: 23.18
+        Time Millisecond Median:1.70 Min:1.67
+        Max:1.80 Avg:1.72 Std:0.05 SampleCount: 10 Sum: 17.19
 
+        
 
-
-        ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestCache3","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"TestCache","Unit":2,"IncreaseIsBetter":false,"Samples":[0.25620000000000006,0.2336,0.22820000000000002,0.23520000000000003,0.2281,0.22990000000000003,0.228,0.2371,0.22970000000000002,0.23020000000000002,0.22820000000000002,0.22970000000000002,0.2285,0.22990000000000003,0.228,0.2281,0.22970000000000002,0.2281,0.2298,0.2281,0.2298,0.22820000000000002,0.22970000000000002,0.23070000000000003,0.2298,0.2281,0.2298,0.2281,0.22970000000000002,0.2281,0.228,0.22970000000000002,0.2281,0.22990000000000003,0.22840000000000003,0.2298,0.2281,0.22970000000000002,0.2281,0.22990000000000003,0.22820000000000002,0.2373,0.2325,0.23,0.228,0.22840000000000003,0.23070000000000003,0.22870000000000002,0.22990000000000003,0.2281,0.2298,0.2281,0.24100000000000003,0.2303,0.2301,0.2281,0.2298,0.2281,0.2298,0.2281,0.2281,0.23270000000000003,0.2281,0.2298,0.22820000000000002,0.22990000000000003,0.228,0.22970000000000002,0.2281,0.2298,0.22820000000000002,0.2298,0.2281,0.22970000000000002,0.22820000000000002,0.228,0.2296,0.2281,0.2298,0.2281,0.23170000000000003,0.2281,0.22970000000000002,0.2281,0.22970000000000002,0.22820000000000002,0.2369,0.2298,0.2301,0.2281,0.2281,0.2296,0.228,0.22970000000000002,0.2281,0.2298,0.228,0.2366,0.2296,0.23220000000000003,0.2281,0.2298,0.2281,0.22990000000000003,0.228,0.228,0.2295,0.2281,0.22970000000000002,0.2281,0.22990000000000003,0.2283,0.22990000000000003,0.228,0.23,0.2281,0.2325,0.2283,0.2323,0.2296,0.22820000000000002,0.2296,0.22820000000000002,0.2298,0.2281,0.2298,0.2281,0.2298,0.22840000000000003,0.2586],"Min":0.228,"Max":0.2586,"Median":0.2296,"Average":0.22995307692307735,"StandardDeviation":0.0040286319201347999,"Sum":29.893900000000057},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[2.3095000000000009,2.3238000000000005,2.3253000000000005,2.3125,2.3054000000000025,2.3226000000000015,2.3198000000000009,2.3055999999999985,2.314600000000002,2.3439999999999978],"Min":2.3054000000000025,"Max":2.3439999999999978,"Median":2.3198000000000009,"Average":2.3183100000000005,"StandardDeviation":0.011013396388035136,"Sum":23.183100000000004}]}
+        ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestCache3","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"TestCache","Unit":2,"IncreaseIsBetter":false,"Samples":[0.222,0.1849,0.1786,0.1792,0.1782,0.1778,0.1777,0.1779,0.1778,0.1774,0.1777,0.17800000000000003,0.1781,0.1776,0.1778,0.1776,0.17750000000000003,0.1777,0.1779,0.1776,0.1776,0.1779,0.1782,0.1779,0.1781,0.17830000000000002,0.1779,0.1777,0.1777,0.18430000000000003,0.17880000000000002,0.1784,0.17830000000000002,0.1782,0.1784,0.1782,0.17800000000000003,0.1779,0.1781,0.1781,0.1781,0.1786,0.1781,0.1782,0.1781,0.17830000000000002,0.17800000000000003,0.1781,0.1781,0.17830000000000002,0.17800000000000003,0.17830000000000002,0.17830000000000002,0.1781,0.1781,0.17800000000000003,0.1781,0.1782,0.1781,0.17500000000000003,0.1719,0.1671,0.164,0.1753,0.1638,0.1641,0.16390000000000003,0.1638,0.1641,0.164,0.1638,0.16390000000000003,0.1721,0.16690000000000003,0.16390000000000003,0.1711,0.16920000000000003,0.1637,0.20040000000000003,0.1648,0.16390000000000003,0.16390000000000003,0.1638,0.1651,0.1751,0.164,0.1656,0.17370000000000003,0.1698,0.1781,0.1746,0.1779,0.1699,0.1642,0.1641,0.1701,0.16920000000000003,0.1641,0.1641,0.1641,0.16390000000000003,0.16970000000000003,0.1693,0.164,0.1698,0.1695,0.164,0.1675,0.1711,0.1638,0.1693,0.17020000000000003,0.1637,0.164,0.16390000000000003,0.1638,0.16390000000000003,0.1643,0.164,0.1686,0.1708,0.1637,0.16390000000000003,0.1638,0.16390000000000003,0.165,0.1781,0.1638,0.164,0.16390000000000003],"Min":0.1637,"Max":0.222,"Median":0.1751,"Average":0.1727184615384617,"StandardDeviation":0.008120342779951186,"Sum":22.453400000000025},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[1.7986999999999994,1.7941000000000003,1.790700000000001,1.6743000000000006,1.7127999999999997,1.695800000000002,1.6940999999999989,1.685100000000002,1.669599999999999,1.6742000000000026],"Min":1.669599999999999,"Max":1.7986999999999994,"Median":1.695800000000002,"Average":1.7189400000000006,"StandardDeviation":0.050915954277612949,"Sum":17.189400000000008}]}
 
 '
       stacktrace: 
@@ -891,23 +562,27 @@ MonoBehaviour:
       name: TestEntityCollectionPerformance
       fullName: Tests.EntityCollectionBenchmark.TestEntityCollectionPerformance
       resultStatus: 1
-      duration: 1.1583891
+      duration: 0.490272
       messages: 
-      output: 'Iterate Managed Array Millisecond Median:3.32 Min:3.06 Max:3.76 Avg:3.34
-        Std:0.14 SampleCount: 130 Sum: 434.34
+      output: 'Casted Iterate Buffer Millisecond Median:0.38 Min:0.33 Max:0.46 Avg:0.37
+        Std:0.02 SampleCount: 130 Sum: 48.16
 
-        Iterate Managed Array constant
-        size Millisecond Median:2.97 Min:2.86 Max:3.51 Avg:3.02 Std:0.12 SampleCount:
-        130 Sum: 392.86
+        Iterate Native Array Millisecond
+        Median:0.45 Min:0.39 Max:0.51 Avg:0.44 Std:0.03 SampleCount: 130 Sum: 56.86
 
-        Time Millisecond Median:65.83 Min:64.08 Max:115.43
-        Avg:84.54 Std:23.98 SampleCount: 10 Sum: 845.38
+        Iterate
+        Managed Array constant size Millisecond Median:0.38 Min:0.33 Max:0.42 Avg:0.37
+        Std:0.02 SampleCount: 130 Sum: 48.16
 
+        Time Millisecond Median:23.11
+        Min:12.94 Max:131.72 Avg:30.20 Std:34.18 SampleCount: 10 Sum: 302.02
 
+        
 
-        ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestEntityCollectionPerformance","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"Iterate
-        Managed Array","Unit":2,"IncreaseIsBetter":false,"Samples":[3.2736,3.3002000000000004,3.2908,3.3315,3.3947000000000004,3.3286000000000004,3.3454,3.3628,3.3704,3.4691,3.3302,3.2401,3.2669,3.3461000000000005,3.3165,3.6238,3.2625,3.2715,3.732,3.6901,3.482,3.6412,3.5202,3.2710000000000005,3.2602,3.2624,3.311,3.2372,3.2678000000000004,3.4579,3.0607,3.1731000000000004,3.1479000000000005,3.2525,3.1347,3.1978,3.6743,3.2405,3.2582,3.5788,3.3277,3.1905,3.0811,3.5178000000000004,3.3395,3.4288000000000005,3.2327000000000005,3.2386000000000005,3.3921,3.6264000000000005,3.2613000000000005,3.3032000000000005,3.3367,3.3524000000000004,3.7608,3.2432000000000005,3.2294,3.3607,3.1921,3.1969000000000005,3.2612,3.403,3.0983,3.27,3.2735000000000005,3.2124,3.6754000000000004,3.2601,3.2587,3.5321000000000004,3.2686,3.2716000000000005,3.2629,3.2291000000000005,3.3067,3.1522,3.3157,3.1192,3.617,3.3106,3.3692,3.447,3.341,3.2314000000000004,3.3122000000000004,3.2784,3.6093,3.4481,3.1946000000000005,3.48,3.3013000000000005,3.4322000000000005,3.3906,3.4209,3.2697000000000004,3.4160000000000005,3.2557,3.3451,3.3850000000000004,3.3600000000000005,3.5277000000000005,3.5050000000000005,3.5317000000000005,3.2452,3.2437,3.2148000000000005,3.3246,3.3317,3.2619000000000004,3.2027,3.2026000000000005,3.2254,3.4665000000000005,3.3498,3.3625000000000004,3.4034,3.4125,3.3633,3.3704,3.3189,3.3303000000000004,3.415,3.3622,3.3464,3.2302,3.5269000000000005,3.3603,3.249,3.349,3.3295000000000005],"Min":3.0607,"Max":3.7608,"Median":3.3246,"Average":3.341055384615386,"StandardDeviation":0.1361068392909598,"Sum":434.33720000000019},{"Name":"Iterate
-        Managed Array constant size","Unit":2,"IncreaseIsBetter":false,"Samples":[2.9368000000000005,2.9268,2.9334000000000004,2.9703,2.9257,2.9343000000000005,2.9657,2.9636,3.0059,3.0751,3.2542,3.0811,2.9456,2.9258,2.9403,3.0573,2.9261,3.0147,2.9331,2.9623,2.9331,3.0210000000000005,2.9291,3.4222,2.9432,3.3986,2.9247,3.1232,2.9383000000000005,2.9586,2.9271000000000004,2.9335,2.9525,3.2354000000000004,3.0045,2.9261,2.9923,3.1350000000000004,2.9373,3.0132000000000005,2.8583000000000005,3.0179,2.9261,3.1343,3.0442,3.1345,3.0658000000000005,2.9465000000000005,3.0457,3.0494000000000005,2.9398,3.5055,3.1064000000000004,2.9272,3.1345,2.9293,2.9423000000000005,3.0842,2.9266,2.9412000000000004,2.9264,3.2118,2.9370000000000004,3.1342000000000005,2.9371,2.9263000000000005,2.9296,2.9357,3.1868000000000005,2.9389000000000005,3.1479000000000005,2.9277,2.938,2.9256,2.9265000000000005,3.0937,2.9051,2.9464,2.9498,3.0942000000000005,2.934,2.9313000000000004,3.3372,3.164,3.1646,2.9539,2.9428,3.2444,3.2117,2.9355,3.4554,3.0776000000000005,3.0179,3.0199000000000004,2.9103000000000005,3.2478000000000004,2.9397,3.0703,3.0989,2.9364000000000005,2.9393000000000004,3.3273,3.1747,2.978,2.9572000000000004,3.0358,3.1139,2.9369,2.9702,2.9832,2.9704,2.978,3.0579,2.9306,2.9696000000000004,2.9974000000000005,2.9431000000000004,3.0591,3.0335,2.9882,2.9987000000000005,3.0577,2.9508,3.0518,3.0333,3.0257,2.9507000000000005,2.9971,2.938,3.0092000000000005],"Min":2.8583000000000005,"Max":3.5055,"Median":2.9703,"Average":3.0219715384615379,"StandardDeviation":0.12190719751239236,"Sum":392.8562999999999},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[64.08219999999997,64.9067,113.7113,64.60770000000002,112.91790000000003,65.8288,65.66360000000009,113.51459999999998,64.71660000000009,115.428],"Min":64.08219999999997,"Max":115.428,"Median":65.8288,"Average":84.53774000000002,"StandardDeviation":23.98029439594934,"Sum":845.3774000000002}]}
+        ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestEntityCollectionPerformance","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"Casted
+        Iterate Buffer","Unit":2,"IncreaseIsBetter":false,"Samples":[0.4601,0.43,0.3546,0.42160000000000005,0.40080000000000007,0.35810000000000005,0.3578,0.35550000000000006,0.3819,0.3911,0.4232,0.38270000000000006,0.38180000000000005,0.3788,0.3816,0.3825,0.3819,0.3821,0.3796,0.3819,0.3814,0.3816,0.3815,0.38220000000000006,0.38230000000000005,0.3816,0.39580000000000006,0.3819,0.3816,0.3821,0.3784,0.3851,0.38170000000000006,0.38170000000000006,0.38180000000000005,0.3785,0.37870000000000006,0.3816,0.38220000000000006,0.3815,0.38180000000000005,0.3814,0.3795,0.38220000000000006,0.3816,0.38230000000000005,0.38230000000000005,0.384,0.3819,0.3826,0.38180000000000005,0.37970000000000006,0.382,0.3788,0.38480000000000005,0.3824,0.38270000000000006,0.38130000000000005,0.38170000000000006,0.3819,0.3821,0.3816,0.3854,0.382,0.3819,0.3821,0.38170000000000006,0.3791,0.3816,0.3786,0.3814,0.3815,0.38220000000000006,0.3816,0.3816,0.38170000000000006,0.3881,0.3819,0.3785,0.391,0.382,0.379,0.3788,0.3821,0.3816,0.3598,0.3855,0.35800000000000006,0.3547,0.3672,0.37220000000000005,0.3629,0.3542,0.3541,0.3468,0.3496,0.331,0.32780000000000006,0.3418,0.3276,0.3277,0.3279,0.3417,0.3281,0.3267,0.3312,0.328,0.35810000000000005,0.3261,0.3281,0.34040000000000006,0.33380000000000006,0.3346,0.3388,0.34090000000000006,0.38,0.3647,0.3558,0.367,0.3552,0.3558,0.3582,0.3536,0.3385,0.3279,0.3355,0.3264,0.3295,0.3826,0.3296],"Min":0.3261,"Max":0.4601,"Median":0.3815,"Average":0.3704784615384617,"StandardDeviation":0.023101238676797549,"Sum":48.16220000000002},{"Name":"Iterate
+        Native Array","Unit":2,"IncreaseIsBetter":false,"Samples":[0.451,0.4238,0.4204,0.4253,0.454,0.4444,0.42410000000000006,0.4263,0.45370000000000007,0.4711,0.4646,0.4524,0.4605,0.4555,0.452,0.4519,0.4535,0.4529,0.45220000000000007,0.4535,0.45280000000000006,0.4534,0.45480000000000006,0.45320000000000007,0.45370000000000007,0.4534,0.4526,0.45230000000000006,0.453,0.4526,0.44970000000000007,0.45380000000000006,0.45270000000000007,0.4529,0.45370000000000007,0.452,0.4515,0.4521,0.45270000000000007,0.4534,0.45170000000000007,0.44680000000000005,0.4606,0.4529,0.4521,0.45280000000000006,0.4505,0.4534,0.45370000000000007,0.45330000000000006,0.4521,0.453,0.4524,0.45270000000000007,0.4515,0.4536,0.4531,0.4534,0.4645,0.4529,0.45320000000000007,0.5081,0.45280000000000006,0.4519,0.4529,0.46240000000000006,0.44630000000000005,0.454,0.4529,0.4534,0.452,0.4489,0.46390000000000006,0.44770000000000007,0.4893,0.45270000000000007,0.4535,0.45330000000000006,0.453,0.45320000000000007,0.4536,0.4526,0.45320000000000007,0.4536,0.4526,0.44320000000000006,0.4244,0.44980000000000006,0.441,0.4297,0.4239,0.42300000000000007,0.42250000000000006,0.41750000000000006,0.38980000000000006,0.40840000000000006,0.38770000000000007,0.40130000000000007,0.3895,0.3942,0.40790000000000006,0.387,0.4088,0.3971,0.3876,0.438,0.3895,0.3941,0.38980000000000006,0.3901,0.40090000000000006,0.39530000000000006,0.39530000000000006,0.40130000000000007,0.3986,0.41800000000000006,0.4247,0.42250000000000006,0.4243,0.4228,0.42310000000000005,0.4229,0.4208,0.4027,0.41400000000000006,0.3875,0.395,0.39080000000000006,0.3906,0.39030000000000006],"Min":0.387,"Max":0.5081,"Median":0.452,"Average":0.43742000000000005,"StandardDeviation":0.025040955376220095,"Sum":56.8646},{"Name":"Iterate
+        Managed Array constant size","Unit":2,"IncreaseIsBetter":false,"Samples":[0.35710000000000005,0.3549,0.3773,0.3553,0.41650000000000006,0.3548,0.35660000000000005,0.38520000000000007,0.38320000000000006,0.385,0.41910000000000005,0.386,0.3846,0.38380000000000005,0.38530000000000005,0.3839,0.38570000000000007,0.38520000000000007,0.38470000000000006,0.3849,0.3851,0.38480000000000005,0.38520000000000007,0.38480000000000005,0.38470000000000006,0.38480000000000005,0.40700000000000005,0.3841,0.3854,0.38530000000000005,0.3965,0.3859,0.38520000000000007,0.38430000000000005,0.385,0.38580000000000005,0.38580000000000005,0.3997,0.385,0.3829,0.38530000000000005,0.38470000000000006,0.38530000000000005,0.38480000000000005,0.38520000000000007,0.3845,0.38380000000000005,0.3845,0.38520000000000007,0.3851,0.3846,0.3855,0.3854,0.38570000000000007,0.39440000000000005,0.38580000000000005,0.3844,0.38570000000000007,0.3851,0.3851,0.38530000000000005,0.38530000000000005,0.3855,0.3854,0.3854,0.38480000000000005,0.3859,0.3844,0.3859,0.3854,0.3864,0.38480000000000005,0.38470000000000006,0.38530000000000005,0.38530000000000005,0.38520000000000007,0.38520000000000007,0.3854,0.38580000000000005,0.38430000000000005,0.3855,0.38580000000000005,0.3849,0.38520000000000007,0.37970000000000006,0.35800000000000006,0.37470000000000006,0.35750000000000006,0.36460000000000006,0.35710000000000005,0.37220000000000005,0.3549,0.3552,0.3957,0.33340000000000005,0.3356,0.32630000000000006,0.3297,0.3269,0.3267,0.331,0.33240000000000005,0.32680000000000006,0.33080000000000006,0.327,0.3447,0.3299,0.3289,0.328,0.3267,0.3412,0.3357,0.3332,0.3378,0.39080000000000006,0.35860000000000005,0.37,0.35550000000000006,0.35500000000000006,0.3554,0.3687,0.35710000000000005,0.3274,0.32730000000000006,0.3295,0.32630000000000006,0.3386,0.3271,0.3282,0.3271],"Min":0.32630000000000006,"Max":0.41910000000000005,"Median":0.38470000000000006,"Average":0.3704500000000002,"StandardDeviation":0.023564145678094538,"Sum":48.15850000000003},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[24.2753,23.8262,23.030299999999984,23.11250000000001,23.105999999999996,131.71880000000003,13.329499999999996,12.940600000000018,13.504099999999994,13.17779999999999],"Min":12.940600000000018,"Max":131.71880000000003,"Median":23.105999999999996,"Average":30.202109999999999,"StandardDeviation":34.182985861461848,"Sum":302.0211}]}
 
 '
       stacktrace: 
@@ -924,54 +599,23 @@ MonoBehaviour:
       name: TestParallel
       fullName: Tests.EntityCollectionBenchmark.TestParallel
       resultStatus: 1
-      duration: 0.1793738
+      duration: 0.1789927
       messages: 
-      output: 'TestParallelFor Millisecond Median:0.18 Min:0.11 Max:4.71 Avg:0.21
-        Std:0.40 SampleCount: 130 Sum: 26.77
+      output: 'TestParallelFor Millisecond Median:0.15 Min:0.12 Max:2.28 Avg:0.19
+        Std:0.19 SampleCount: 130 Sum: 24.20
 
-        Time Millisecond Median:1.85
-        Min:1.44 Max:1.86 Avg:1.74 Std:0.16 SampleCount: 10 Sum: 17.39
+        Time Millisecond Median:1.47
+        Min:1.35 Max:2.00 Avg:1.56 Std:0.21 SampleCount: 10 Sum: 15.62
 
+        
 
+        ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestParallel","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"TestParallelFor","Unit":2,"IncreaseIsBetter":false,"Samples":[2.2842000000000004,0.2147,0.2069,0.4026,0.2217,0.19240000000000002,0.18150000000000003,0.17600000000000003,0.1993,0.2102,0.19890000000000003,0.1956,0.20070000000000003,0.1648,0.1773,0.4379,0.4237,0.2233,0.22060000000000003,0.2285,0.2237,0.2369,0.2369,0.23920000000000003,0.2194,0.2396,0.21450000000000003,0.188,0.1831,0.18280000000000003,0.1525,0.1857,0.18580000000000003,0.2063,0.18050000000000003,0.17020000000000003,0.1676,0.1333,0.1427,0.1563,0.1486,0.1678,0.17900000000000003,0.1889,0.16570000000000002,0.1762,0.1966,0.1862,0.1784,0.16440000000000003,0.129,0.1328,0.1386,0.5306000000000001,0.17420000000000003,0.1648,0.1404,0.1724,0.2079,0.16640000000000003,0.1814,0.1529,0.19460000000000003,0.19640000000000003,0.157,0.1333,0.1331,0.16190000000000002,0.1554,0.1423,0.2432,0.13470000000000002,0.1396,0.1335,0.12840000000000002,0.1306,0.13,0.1365,0.1311,0.1221,0.12510000000000003,0.13620000000000002,0.1317,0.1336,0.1315,0.14120000000000003,0.1346,0.135,0.13570000000000002,0.1262,0.1182,0.1555,0.1331,0.1333,0.1277,0.12340000000000001,0.1336,0.1333,0.1316,0.1365,0.1301,0.1499,0.1315,0.135,0.1459,0.168,0.1383,0.1291,0.1168,0.11850000000000001,0.1504,0.13240000000000003,0.1275,0.1278,0.1346,0.1401,0.1422,0.1617,0.14600000000000003,0.13040000000000002,0.1307,0.1553,0.1366,0.14730000000000002,0.1589,0.1416,0.1396,0.1406,0.1429,0.1408],"Min":0.1168,"Max":2.2842000000000004,"Median":0.1529,"Average":0.18615538461538476,"StandardDeviation":0.19416224383886894,"Sum":24.200200000000018},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[1.7241,1.7804000000000003,1.9963999999999996,1.6576999999999985,1.4621999999999993,1.3627000000000003,1.3527000000000023,1.3915000000000007,1.4177,1.471499999999999],"Min":1.3527000000000023,"Max":1.9963999999999996,"Median":1.471499999999999,"Average":1.56169,"StandardDeviation":0.20576828448524288,"Sum":15.6169}]}
 
-        ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestParallel","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"TestParallelFor","Unit":2,"IncreaseIsBetter":false,"Samples":[4.7107,0.3342,0.2366,0.2053,0.1986,0.2637,0.2179,0.2202,0.22560000000000003,0.1874,0.1797,0.1769,0.1801,0.1769,0.11710000000000001,0.1105,0.1801,0.17750000000000003,0.11180000000000001,0.1771,0.1796,0.1797,0.108,0.1834,0.14850000000000003,0.14070000000000003,0.10940000000000001,0.10940000000000001,0.165,0.1102,0.1882,0.1801,0.1376,0.1749,0.1102,0.15760000000000003,0.20570000000000003,0.109,0.1085,0.11,0.1955,0.12240000000000001,0.18080000000000003,0.2131,0.12100000000000001,0.1124,0.1078,0.10840000000000001,0.19190000000000002,0.1563,0.1075,0.193,0.1255,0.1085,0.10940000000000001,0.10890000000000001,0.1148,0.1895,0.1522,0.19260000000000003,0.1832,0.1762,0.1837,0.17470000000000003,0.17850000000000003,0.1761,0.1869,0.18580000000000003,0.1789,0.1767,0.182,0.17400000000000002,0.1867,0.1752,0.1819,0.1835,0.17600000000000003,0.17550000000000003,0.17400000000000002,0.16690000000000003,0.1756,0.1862,0.1772,0.1817,0.1753,0.17450000000000003,0.1835,0.18130000000000003,0.18460000000000002,0.1859,0.183,0.1865,0.17930000000000002,0.1758,0.18150000000000003,0.17880000000000002,0.1739,0.1917,0.1784,0.1842,0.18000000000000003,0.1812,0.1822,0.17700000000000003,0.17800000000000003,0.1836,0.18080000000000003,0.1832,0.1801,0.1794,0.1816,0.1752,0.1751,0.1759,0.17300000000000002,0.1736,0.1781,0.1754,0.1776,0.1756,0.1769,0.17980000000000002,0.1792,0.1782,0.1822,0.1757,0.1796,0.1778,0.17750000000000003,0.1899],"Min":0.1075,"Max":4.7107,"Median":0.1782,"Average":0.20595230769230767,"StandardDeviation":0.3980052158945785,"Sum":26.773799999999996},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[1.5237000000000017,1.5433000000000004,1.437899999999999,1.8467999999999983,1.8205999999999989,1.8513999999999982,1.8562000000000012,1.8566000000000003,1.806799999999999,1.845200000000002],"Min":1.437899999999999,"Max":1.8566000000000003,"Median":1.845200000000002,"Average":1.73885,"StandardDeviation":0.15800873551800846,"Sum":17.3885}]}
-
-        ##performancetestruninfo2:{"TestSuite":"Playmode","Date":1655037320779,"Player":{"Development":true,"ScreenWidth":3840,"ScreenHeight":2160,"ScreenRefreshRate":60,"Fullscreen":false,"Vsync":0,"AntiAliasing":0,"Batchmode":false,"RenderThreadingMode":"MultiThreaded","GpuSkinning":false,"Platform":"WindowsEditor","ColorSpace":"Gamma","AnisotropicFiltering":"Disable","BlendWeights":"OneBone","GraphicsApi":"Direct3D11","ScriptingBackend":"Mono2x","AndroidTargetSdkVersion":"AndroidApiLevelAuto","AndroidBuildSystem":"Gradle","BuildTarget":"StandaloneWindows64","StereoRenderingPath":"MultiPass"},"Hardware":{"OperatingSystem":"Windows
-        10  (10.0.19043) 64bit","DeviceModel":"System Product Name (System manufacturer)","DeviceName":"SEB-SAM","ProcessorType":"Intel(R)
-        Core(TM) i7-6700K CPU @ 4.00GHz","ProcessorCount":8,"GraphicsDeviceName":"NVIDIA
-        GeForce GTX 1060 6GB","SystemMemorySizeMB":32707},"Editor":{"Version":"2021.3.4f1","Branch":"2021.3/staging","Changeset":"cb45f9cae8b7","Date":1653503040},"Dependencies":["com.sebaslab.svelto.common@3.3.2","com.sebaslab.svelto.ecs@3.3.2","com.unity.burst@1.7.0","com.unity.ide.rider@3.0.14","com.unity.ide.visualstudio@2.0.15","com.unity.ide.vscode@1.2.5","com.unity.jobs@0.11.0-preview.6","com.unity.test-framework@1.1.31","com.unity.test-framework.performance@2.8.1-preview","com.unity.textmeshpro@3.0.6","com.unity.timeline@1.6.4","com.unity.toolchain.win-x86_64-linux-x86_64@1.0.0","com.unity.ugui@1.0.0","com.unity.modules.ai@1.0.0","com.unity.modules.androidjni@1.0.0","com.unity.modules.animation@1.0.0","com.unity.modules.assetbundle@1.0.0","com.unity.modules.audio@1.0.0","com.unity.modules.cloth@1.0.0","com.unity.modules.director@1.0.0","com.unity.modules.imageconversion@1.0.0","com.unity.modules.imgui@1.0.0","com.unity.modules.jsonserialize@1.0.0","com.unity.modules.particlesystem@1.0.0","com.unity.modules.physics@1.0.0","com.unity.modules.physics2d@1.0.0","com.unity.modules.screencapture@1.0.0","com.unity.modules.terrain@1.0.0","com.unity.modules.terrainphysics@1.0.0","com.unity.modules.tilemap@1.0.0","com.unity.modules.ui@1.0.0","com.unity.modules.uielements@1.0.0","com.unity.modules.umbra@1.0.0","com.unity.modules.unityanalytics@1.0.0","com.unity.modules.unitywebrequest@1.0.0","com.unity.modules.unitywebrequestassetbundle@1.0.0","com.unity.modules.unitywebrequestaudio@1.0.0","com.unity.modules.unitywebrequesttexture@1.0.0","com.unity.modules.unitywebrequestwww@1.0.0","com.unity.modules.vehicles@1.0.0","com.unity.modules.video@1.0.0","com.unity.modules.vr@1.0.0","com.unity.modules.wind@1.0.0","com.unity.modules.xr@1.0.0","com.unity.modules.subsystems@1.0.0","com.unity.modules.uielementsnative@1.0.0","com.unity.sysroot@1.0.0","com.unity.sysroot.linux-x86_64@1.0.0","com.unity.ext.nunit@1.0.6","com.unity.collections@1.2.3","com.unity.mathematics@1.2.6","org.nuget.system.runtime.compilerservices.unsafe@5.0.0"],"Results":[]}
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Performance
-      parentId: 1007
-      parentUniqueId: Benchmarks.dll/Tests/[Benchmarks][Tests.EntityCollectionBenchmark][suite]
-    - id: 1013
-      uniqueId: Benchmarks.dll/Tests/EntityCollectionBenchmark/[Benchmarks][Tests.EntityCollectionBenchmark.TestParallel2]
-      name: TestParallel2
-      fullName: Tests.EntityCollectionBenchmark.TestParallel2
-      resultStatus: 1
-      duration: 0.1291484
-      messages: 
-      output: 'TestParallelForBatch Millisecond Median:0.10 Min:0.07 Max:1.54 Avg:0.12
-        Std:0.13 SampleCount: 130 Sum: 15.06
-
-        Time Millisecond Median:1.09
-        Min:0.98 Max:1.12 Avg:1.07 Std:0.04 SampleCount: 10 Sum: 10.66
-
-
-
-        ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestParallel2","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"TestParallelForBatch","Unit":2,"IncreaseIsBetter":false,"Samples":[1.5424,0.0949,0.10400000000000001,0.0867,0.1129,0.1395,0.1295,0.0966,0.1179,0.11510000000000001,0.1169,0.1282,0.1109,0.11410000000000001,0.1315,0.0877,0.0984,0.0984,0.11900000000000001,0.1102,0.11080000000000001,0.0915,0.1013,0.1058,0.12040000000000001,0.1356,0.12250000000000001,0.10640000000000001,0.1179,0.0794,0.1272,0.1053,0.07680000000000001,0.0898,0.09480000000000001,0.0731,0.0781,0.1217,0.077,0.09290000000000001,0.12480000000000001,0.1264,0.1078,0.1158,0.12250000000000001,0.0941,0.1056,0.09040000000000001,0.10310000000000001,0.08310000000000001,0.0779,0.0994,0.1095,0.12040000000000001,0.0855,0.08020000000000001,0.1169,0.1,0.0947,0.1232,0.09920000000000001,0.0896,0.1184,0.10350000000000001,0.08750000000000001,0.09190000000000001,0.08750000000000001,0.1038,0.09770000000000001,0.0886,0.1085,0.09770000000000001,0.10740000000000001,0.09630000000000001,0.09820000000000001,0.11470000000000001,0.1277,0.0956,0.1,0.11320000000000001,0.0901,0.1227,0.0818,0.0854,0.11420000000000001,0.11900000000000001,0.0947,0.1048,0.1115,0.10550000000000001,0.0903,0.0983,0.0888,0.11810000000000001,0.1158,0.1041,0.095,0.1179,0.11570000000000001,0.1213,0.12090000000000001,0.0777,0.11750000000000001,0.1129,0.1078,0.1027,0.10160000000000001,0.0838,0.10350000000000001,0.09330000000000001,0.1155,0.0902,0.12200000000000001,0.1374,0.0932,0.10690000000000001,0.12050000000000001,0.08850000000000001,0.0961,0.11330000000000001,0.10260000000000001,0.1154,0.10450000000000001,0.0869,0.1043,0.0927,0.11800000000000001,0.0976,0.10210000000000001,0.1393],"Min":0.0731,"Max":1.5424,"Median":0.1043,"Average":0.11580846153846151,"StandardDeviation":0.12648169039558827,"Sum":15.055099999999996},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[0.9759000000000002,1.1063,1.0451000000000015,1.0020000000000007,1.0949000000000009,1.0655000000000002,1.0991999999999998,1.0564,1.1178999999999988,1.0986000000000012],"Min":0.9759000000000002,"Max":1.1178999999999988,"Median":1.0949000000000009,"Average":1.0661800000000004,"StandardDeviation":0.04478930229418605,"Sum":10.661800000000003}]}
-
-        ##performancetestruninfo2:{"TestSuite":"Playmode","Date":1655037326586,"Player":{"Development":true,"ScreenWidth":3840,"ScreenHeight":2160,"ScreenRefreshRate":60,"Fullscreen":false,"Vsync":0,"AntiAliasing":0,"Batchmode":false,"RenderThreadingMode":"MultiThreaded","GpuSkinning":false,"Platform":"WindowsEditor","ColorSpace":"Gamma","AnisotropicFiltering":"Disable","BlendWeights":"OneBone","GraphicsApi":"Direct3D11","ScriptingBackend":"Mono2x","AndroidTargetSdkVersion":"AndroidApiLevelAuto","AndroidBuildSystem":"Gradle","BuildTarget":"StandaloneWindows64","StereoRenderingPath":"MultiPass"},"Hardware":{"OperatingSystem":"Windows
-        10  (10.0.19043) 64bit","DeviceModel":"System Product Name (System manufacturer)","DeviceName":"SEB-SAM","ProcessorType":"Intel(R)
-        Core(TM) i7-6700K CPU @ 4.00GHz","ProcessorCount":8,"GraphicsDeviceName":"NVIDIA
-        GeForce GTX 1060 6GB","SystemMemorySizeMB":32707},"Editor":{"Version":"2021.3.4f1","Branch":"2021.3/staging","Changeset":"cb45f9cae8b7","Date":1653503040},"Dependencies":["com.sebaslab.svelto.common@3.3.2","com.sebaslab.svelto.ecs@3.3.2","com.unity.burst@1.7.0","com.unity.ide.rider@3.0.14","com.unity.ide.visualstudio@2.0.15","com.unity.ide.vscode@1.2.5","com.unity.jobs@0.11.0-preview.6","com.unity.test-framework@1.1.31","com.unity.test-framework.performance@2.8.1-preview","com.unity.textmeshpro@3.0.6","com.unity.timeline@1.6.4","com.unity.toolchain.win-x86_64-linux-x86_64@1.0.0","com.unity.ugui@1.0.0","com.unity.modules.ai@1.0.0","com.unity.modules.androidjni@1.0.0","com.unity.modules.animation@1.0.0","com.unity.modules.assetbundle@1.0.0","com.unity.modules.audio@1.0.0","com.unity.modules.cloth@1.0.0","com.unity.modules.director@1.0.0","com.unity.modules.imageconversion@1.0.0","com.unity.modules.imgui@1.0.0","com.unity.modules.jsonserialize@1.0.0","com.unity.modules.particlesystem@1.0.0","com.unity.modules.physics@1.0.0","com.unity.modules.physics2d@1.0.0","com.unity.modules.screencapture@1.0.0","com.unity.modules.terrain@1.0.0","com.unity.modules.terrainphysics@1.0.0","com.unity.modules.tilemap@1.0.0","com.unity.modules.ui@1.0.0","com.unity.modules.uielements@1.0.0","com.unity.modules.umbra@1.0.0","com.unity.modules.unityanalytics@1.0.0","com.unity.modules.unitywebrequest@1.0.0","com.unity.modules.unitywebrequestassetbundle@1.0.0","com.unity.modules.unitywebrequestaudio@1.0.0","com.unity.modules.unitywebrequesttexture@1.0.0","com.unity.modules.unitywebrequestwww@1.0.0","com.unity.modules.vehicles@1.0.0","com.unity.modules.video@1.0.0","com.unity.modules.vr@1.0.0","com.unity.modules.wind@1.0.0","com.unity.modules.xr@1.0.0","com.unity.modules.subsystems@1.0.0","com.unity.modules.uielementsnative@1.0.0","com.unity.sysroot@1.0.0","com.unity.sysroot.linux-x86_64@1.0.0","com.unity.ext.nunit@1.0.6","com.unity.collections@1.2.3","com.unity.mathematics@1.2.6","org.nuget.system.runtime.compilerservices.unsafe@5.0.0"],"Results":[]}
+        ##performancetestruninfo2:{"TestSuite":"Playmode","Date":1672231085799,"Player":{"Development":true,"ScreenWidth":2560,"ScreenHeight":1600,"ScreenRefreshRate":165,"Fullscreen":false,"Vsync":0,"AntiAliasing":0,"Batchmode":false,"RenderThreadingMode":"MultiThreaded","GpuSkinning":false,"Platform":"WindowsEditor","ColorSpace":"Gamma","AnisotropicFiltering":"Disable","BlendWeights":"OneBone","GraphicsApi":"Direct3D11","ScriptingBackend":"Mono2x","AndroidTargetSdkVersion":"AndroidApiLevelAuto","AndroidBuildSystem":"Gradle","BuildTarget":"StandaloneWindows64","StereoRenderingPath":"MultiPass"},"Hardware":{"OperatingSystem":"Windows
+        11  (10.0.22621) 64bit","DeviceModel":"ROG Zephyrus M16 GU603ZW_GU603ZW (ASUSTeK
+        COMPUTER INC.)","DeviceName":"LAPTOP-JSJ0CL11","ProcessorType":"12th Gen
+        Intel(R) Core(TM) i9-12900H","ProcessorCount":20,"GraphicsDeviceName":"NVIDIA
+        GeForce RTX 3070 Ti Laptop GPU","SystemMemorySizeMB":32460},"Editor":{"Version":"2021.3.16f1","Branch":"2021.3/staging","Changeset":"4016570cf34f","Date":1670847685},"Dependencies":["com.sebaslab.svelto.common@3.3.2","com.sebaslab.svelto.ecs@3.3.2","com.unity.burst@1.7.0","com.unity.ide.rider@3.0.16","com.unity.ide.visualstudio@2.0.16","com.unity.ide.vscode@1.2.5","com.unity.test-framework@1.1.31","com.unity.test-framework.performance@2.8.1-preview","com.unity.textmeshpro@3.0.6","com.unity.timeline@1.6.4","com.unity.toolchain.win-x86_64-linux-x86_64@1.0.0","com.unity.ugui@1.0.0","com.unity.modules.ai@1.0.0","com.unity.modules.androidjni@1.0.0","com.unity.modules.animation@1.0.0","com.unity.modules.assetbundle@1.0.0","com.unity.modules.audio@1.0.0","com.unity.modules.cloth@1.0.0","com.unity.modules.director@1.0.0","com.unity.modules.imageconversion@1.0.0","com.unity.modules.imgui@1.0.0","com.unity.modules.jsonserialize@1.0.0","com.unity.modules.particlesystem@1.0.0","com.unity.modules.physics@1.0.0","com.unity.modules.physics2d@1.0.0","com.unity.modules.screencapture@1.0.0","com.unity.modules.terrain@1.0.0","com.unity.modules.terrainphysics@1.0.0","com.unity.modules.tilemap@1.0.0","com.unity.modules.ui@1.0.0","com.unity.modules.uielements@1.0.0","com.unity.modules.umbra@1.0.0","com.unity.modules.unityanalytics@1.0.0","com.unity.modules.unitywebrequest@1.0.0","com.unity.modules.unitywebrequestassetbundle@1.0.0","com.unity.modules.unitywebrequestaudio@1.0.0","com.unity.modules.unitywebrequesttexture@1.0.0","com.unity.modules.unitywebrequestwww@1.0.0","com.unity.modules.vehicles@1.0.0","com.unity.modules.video@1.0.0","com.unity.modules.vr@1.0.0","com.unity.modules.wind@1.0.0","com.unity.modules.xr@1.0.0","com.unity.modules.subsystems@1.0.0","com.unity.modules.uielementsnative@1.0.0","com.unity.sysroot@1.0.0","com.unity.sysroot.linux-x86_64@1.0.0","com.unity.ext.nunit@1.0.6","com.unity.mathematics@1.2.6","org.nuget.system.runtime.compilerservices.unsafe@5.0.0"],"Results":[]}
 
 '
       stacktrace: 
@@ -987,9 +631,9 @@ MonoBehaviour:
       uniqueId: Benchmarks.dll/Tests/[Benchmarks][Tests.EntitySubmissionBenchmark][suite]
       name: EntitySubmissionBenchmark
       fullName: Tests.EntitySubmissionBenchmark
-      resultStatus: 1
-      duration: 0.2884563
-      messages: 
+      resultStatus: 2
+      duration: 0.2455938
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1003,44 +647,48 @@ MonoBehaviour:
       uniqueId: Benchmarks.dll/Tests/EntitySubmissionBenchmark/[Benchmarks][Tests.EntitySubmissionBenchmark.TestEntitySubmissionPerformance]
       name: TestEntitySubmissionPerformance
       fullName: Tests.EntitySubmissionBenchmark.TestEntitySubmissionPerformance
-      resultStatus: 1
-      duration: 0.2712645
-      messages: 
-      output: "add 1000 empty entities Millisecond Median:1.77 Min:1.75 Max:8.82
-        Avg:2.26 Std:1.75 SampleCount: 15 Sum: 33.91\nsubmit 1000 empty entities
-        Millisecond Median:0.54 Min:0.54 Max:13.72 Avg:1.42 Std:3.29 SampleCount:
-        15 Sum: 21.37\nAdd operations Nanosecond Median:449100.00 Min:447500.00 Max:8307400.00
-        Avg:974040.00 Std:1959925.85 SampleCount: 15 Sum: 14610600.00\nTime Millisecond
-        Median:3.19 Min:2.38 Max:3.27 Avg:2.83 Std:0.40 SampleCount: 20 Sum: 56.55\nadd
-        1000 empty entities over 10 groups Millisecond Median:2.38 Min:2.35 Max:2.56
-        Avg:2.40 Std:0.06 SampleCount: 15 Sum: 35.98\nAdd 1000 empty entities over
-        10 groups Millisecond Median:0.84 Min:0.83 Max:0.95 Avg:0.85 Std:0.03 SampleCount:
-        15 Sum: 12.73\n\r\n##performancetestresult2:{\"Name\":\"Tests.EntitySubmissionBenchmark.TestEntitySubmissionPerformance\",\"Version\":\"1\",\"Categories\":[\"Performance\"],\"SampleGroups\":[{\"Name\":\"add
-        1000 empty entities\",\"Unit\":2,\"IncreaseIsBetter\":false,\"Samples\":[8.8191,1.7985,1.7482,1.7562,1.7527000000000002,1.8511000000000003,1.7581,1.7737,1.7778,1.7722,1.7702,2.0258000000000004,1.7606000000000002,1.764,1.7787000000000002],\"Min\":1.7482,\"Max\":8.8191,\"Median\":1.7722,\"Average\":2.2604600000000008,\"StandardDeviation\":1.75415230764036,\"Sum\":33.90690000000001},{\"Name\":\"submit
-        1000 empty entities\",\"Unit\":2,\"IncreaseIsBetter\":false,\"Samples\":[13.7177,0.551,0.5474,0.5434,0.5434,0.5518000000000001,0.5445,0.5436,0.5415,0.5507000000000001,0.5443,0.5614,0.5436,0.5425,0.5436],\"Min\":0.5415,\"Max\":13.7177,\"Median\":0.5443,\"Average\":1.4246933333333336,\"StandardDeviation\":3.2854481132141206,\"Sum\":21.370400000000005},{\"Name\":\"Add
-        operations\",\"Unit\":0,\"IncreaseIsBetter\":false,\"Samples\":[8307400.0,451900.0,450200.0,448500.0,448800.0,451200.0,449100.0,448500.0,447500.0,451000.0,449200.0,462100.0,448800.0,448000.0,448400.0],\"Min\":447500.0,\"Max\":8307400.0,\"Median\":449100.0,\"Average\":974040.0,\"StandardDeviation\":1959925.850230054,\"Sum\":14610600.0},{\"Name\":\"Time\",\"Unit\":2,\"IncreaseIsBetter\":false,\"Samples\":[2.498800000000003,2.3821999999999976,2.390500000000003,2.3928999999999975,2.4236999999999968,2.391599999999997,2.6755999999999888,2.379899999999992,2.3807999999999938,2.394900000000007,3.191700000000001,3.2360000000000008,3.2714,3.2157999999999946,3.213699999999996,3.232300000000002,3.1925000000000027,3.2081000000000019,3.2363,3.2455],\"Min\":2.379899999999992,\"Max\":3.2714,\"Median\":3.191700000000001,\"Average\":2.827709999999999,\"StandardDeviation\":0.4018470852202374,\"Sum\":56.55419999999997},{\"Name\":\"add
-        1000 empty entities over 10 groups\",\"Unit\":2,\"IncreaseIsBetter\":false,\"Samples\":[2.5562,2.5501,2.3543000000000005,2.3839,2.3719,2.3489,2.3899,2.4229000000000004,2.3611,2.3697,2.3782,2.3507000000000004,2.3605,2.3825000000000005,2.402],\"Min\":2.3489,\"Max\":2.5562,\"Median\":2.3782,\"Average\":2.3988533333333339,\"StandardDeviation\":0.06350390924099782,\"Sum\":35.982800000000008},{\"Name\":\"Add
-        1000 empty entities over 10 groups\",\"Unit\":2,\"IncreaseIsBetter\":false,\"Samples\":[0.9523,0.8713000000000001,0.8387,0.8389000000000001,0.8502000000000001,0.8331000000000001,0.8364,0.8376,0.8438,0.8347,0.8437,0.8329000000000001,0.8373,0.8438,0.8338],\"Min\":0.8329000000000001,\"Max\":0.9523,\"Median\":0.8387,\"Average\":0.8485666666666668,\"StandardDeviation\":0.029246348300067977,\"Sum\":12.728500000000003}]}\r\n##performancetestruninfo2:{\"TestSuite\":\"Playmode\",\"Date\":1655038155333,\"Player\":{\"Development\":true,\"ScreenWidth\":1920,\"ScreenHeight\":1200,\"ScreenRefreshRate\":59,\"Fullscreen\":false,\"Vsync\":0,\"AntiAliasing\":0,\"Batchmode\":false,\"RenderThreadingMode\":\"MultiThreaded\",\"GpuSkinning\":false,\"Platform\":\"WindowsEditor\",\"ColorSpace\":\"Gamma\",\"AnisotropicFiltering\":\"Disable\",\"BlendWeights\":\"OneBone\",\"GraphicsApi\":\"Direct3D11\",\"ScriptingBackend\":\"Mono2x\",\"AndroidTargetSdkVersion\":\"AndroidApiLevelAuto\",\"AndroidBuildSystem\":\"Gradle\",\"BuildTarget\":\"StandaloneWindows64\",\"StereoRenderingPath\":\"MultiPass\"},\"Hardware\":{\"OperatingSystem\":\"Windows
-        10  (10.0.19043) 64bit\",\"DeviceModel\":\"System Product Name (System manufacturer)\",\"DeviceName\":\"SEB-SAM\",\"ProcessorType\":\"Intel(R)
-        Core(TM) i7-6700K CPU @ 4.00GHz\",\"ProcessorCount\":8,\"GraphicsDeviceName\":\"NVIDIA
-        GeForce GTX 1060 6GB\",\"SystemMemorySizeMB\":32707},\"Editor\":{\"Version\":\"2021.3.4f1\",\"Branch\":\"2021.3/staging\",\"Changeset\":\"cb45f9cae8b7\",\"Date\":1653503040},\"Dependencies\":[\"com.sebaslab.svelto.common@3.3.2\",\"com.sebaslab.svelto.ecs@3.3.2\",\"com.unity.burst@1.7.0\",\"com.unity.ide.rider@3.0.14\",\"com.unity.ide.visualstudio@2.0.15\",\"com.unity.ide.vscode@1.2.5\",\"com.unity.jobs@0.11.0-preview.6\",\"com.unity.test-framework@1.1.31\",\"com.unity.test-framework.performance@2.8.1-preview\",\"com.unity.textmeshpro@3.0.6\",\"com.unity.timeline@1.6.4\",\"com.unity.toolchain.win-x86_64-linux-x86_64@1.0.0\",\"com.unity.ugui@1.0.0\",\"com.unity.modules.ai@1.0.0\",\"com.unity.modules.androidjni@1.0.0\",\"com.unity.modules.animation@1.0.0\",\"com.unity.modules.assetbundle@1.0.0\",\"com.unity.modules.audio@1.0.0\",\"com.unity.modules.cloth@1.0.0\",\"com.unity.modules.director@1.0.0\",\"com.unity.modules.imageconversion@1.0.0\",\"com.unity.modules.imgui@1.0.0\",\"com.unity.modules.jsonserialize@1.0.0\",\"com.unity.modules.particlesystem@1.0.0\",\"com.unity.modules.physics@1.0.0\",\"com.unity.modules.physics2d@1.0.0\",\"com.unity.modules.screencapture@1.0.0\",\"com.unity.modules.terrain@1.0.0\",\"com.unity.modules.terrainphysics@1.0.0\",\"com.unity.modules.tilemap@1.0.0\",\"com.unity.modules.ui@1.0.0\",\"com.unity.modules.uielements@1.0.0\",\"com.unity.modules.umbra@1.0.0\",\"com.unity.modules.unityanalytics@1.0.0\",\"com.unity.modules.unitywebrequest@1.0.0\",\"com.unity.modules.unitywebrequestassetbundle@1.0.0\",\"com.unity.modules.unitywebrequestaudio@1.0.0\",\"com.unity.modules.unitywebrequesttexture@1.0.0\",\"com.unity.modules.unitywebrequestwww@1.0.0\",\"com.unity.modules.vehicles@1.0.0\",\"com.unity.modules.video@1.0.0\",\"com.unity.modules.vr@1.0.0\",\"com.unity.modules.wind@1.0.0\",\"com.unity.modules.xr@1.0.0\",\"com.unity.modules.subsystems@1.0.0\",\"com.unity.modules.uielementsnative@1.0.0\",\"com.unity.sysroot@1.0.0\",\"com.unity.sysroot.linux-x86_64@1.0.0\",\"com.unity.ext.nunit@1.0.6\",\"com.unity.collections@1.2.3\",\"com.unity.mathematics@1.2.6\",\"org.nuget.system.runtime.compilerservices.unsafe@5.0.0\"],\"Results\":[]}\r\n[12:49:19.582]
-        thread: 2 <b><color=orange> ------> Engines Root has been garbage collected,
-        don't forget to call Dispose()! </color></b> \r\nSvelto.ECS.EnginesRoot:Finalize()
-        (at <a href=\"Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs\"
-        line=\"359\">Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs:359</a>)\n\r\n\r\n[12:49:19.586]
-        thread: 2 <b><color=orange> ------> Engines Root has been garbage collected,
-        don't forget to call Dispose()! </color></b> \r\nSvelto.ECS.EnginesRoot:Finalize()
-        (at <a href=\"Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs\"
-        line=\"359\">Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs:359</a>)\n\r\n\r\n[12:49:19.587]
-        thread: 2 <b><color=orange> ------> Engines Root has been garbage collected,
-        don't forget to call Dispose()! </color></b> \r\nSvelto.ECS.EnginesRoot:Finalize()
-        (at <a href=\"Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs\"
-        line=\"359\">Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs:359</a>)\n\r\n\r\n[12:49:19.587]
-        thread: 2 <b><color=orange> ------> Engines Root has been garbage collected,
-        don't forget to call Dispose()! </color></b> \r\nSvelto.ECS.EnginesRoot:Finalize()
-        (at <a href=\"Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs\"
-        line=\"359\">Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs:359</a>)\n\r\n\r\n"
-      stacktrace: 
+      resultStatus: 2
+      duration: 0.2349374
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'add 1000 empty entities 0.60 Millisecond
+
+        
+
+        ##performancetestresult2:{"Name":"Tests.EntitySubmissionBenchmark.TestEntitySubmissionPerformance","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"add
+        1000 empty entities","Unit":2,"IncreaseIsBetter":false,"Samples":[0.6033000000000001],"Min":0.6033000000000001,"Max":0.6033000000000001,"Median":0.6033000000000001,"Average":0.6033000000000001,"StandardDeviation":0.0,"Sum":0.6033000000000001}]}
+
+        ##performancetestruninfo2:{"TestSuite":"Playmode","Date":1672231130923,"Player":{"Development":true,"ScreenWidth":2560,"ScreenHeight":1600,"ScreenRefreshRate":165,"Fullscreen":false,"Vsync":0,"AntiAliasing":0,"Batchmode":false,"RenderThreadingMode":"MultiThreaded","GpuSkinning":false,"Platform":"WindowsEditor","ColorSpace":"Gamma","AnisotropicFiltering":"Disable","BlendWeights":"OneBone","GraphicsApi":"Direct3D11","ScriptingBackend":"Mono2x","AndroidTargetSdkVersion":"AndroidApiLevelAuto","AndroidBuildSystem":"Gradle","BuildTarget":"StandaloneWindows64","StereoRenderingPath":"MultiPass"},"Hardware":{"OperatingSystem":"Windows
+        11  (10.0.22621) 64bit","DeviceModel":"ROG Zephyrus M16 GU603ZW_GU603ZW (ASUSTeK
+        COMPUTER INC.)","DeviceName":"LAPTOP-JSJ0CL11","ProcessorType":"12th Gen
+        Intel(R) Core(TM) i9-12900H","ProcessorCount":20,"GraphicsDeviceName":"NVIDIA
+        GeForce RTX 3070 Ti Laptop GPU","SystemMemorySizeMB":32460},"Editor":{"Version":"2021.3.16f1","Branch":"2021.3/staging","Changeset":"4016570cf34f","Date":1670847685},"Dependencies":["com.sebaslab.svelto.common@3.3.2","com.sebaslab.svelto.ecs@3.3.2","com.unity.burst@1.7.0","com.unity.ide.rider@3.0.16","com.unity.ide.visualstudio@2.0.16","com.unity.ide.vscode@1.2.5","com.unity.test-framework@1.1.31","com.unity.test-framework.performance@2.8.1-preview","com.unity.textmeshpro@3.0.6","com.unity.timeline@1.6.4","com.unity.toolchain.win-x86_64-linux-x86_64@1.0.0","com.unity.ugui@1.0.0","com.unity.modules.ai@1.0.0","com.unity.modules.androidjni@1.0.0","com.unity.modules.animation@1.0.0","com.unity.modules.assetbundle@1.0.0","com.unity.modules.audio@1.0.0","com.unity.modules.cloth@1.0.0","com.unity.modules.director@1.0.0","com.unity.modules.imageconversion@1.0.0","com.unity.modules.imgui@1.0.0","com.unity.modules.jsonserialize@1.0.0","com.unity.modules.particlesystem@1.0.0","com.unity.modules.physics@1.0.0","com.unity.modules.physics2d@1.0.0","com.unity.modules.screencapture@1.0.0","com.unity.modules.terrain@1.0.0","com.unity.modules.terrainphysics@1.0.0","com.unity.modules.tilemap@1.0.0","com.unity.modules.ui@1.0.0","com.unity.modules.uielements@1.0.0","com.unity.modules.umbra@1.0.0","com.unity.modules.unityanalytics@1.0.0","com.unity.modules.unitywebrequest@1.0.0","com.unity.modules.unitywebrequestassetbundle@1.0.0","com.unity.modules.unitywebrequestaudio@1.0.0","com.unity.modules.unitywebrequesttexture@1.0.0","com.unity.modules.unitywebrequestwww@1.0.0","com.unity.modules.vehicles@1.0.0","com.unity.modules.video@1.0.0","com.unity.modules.vr@1.0.0","com.unity.modules.wind@1.0.0","com.unity.modules.xr@1.0.0","com.unity.modules.subsystems@1.0.0","com.unity.modules.uielementsnative@1.0.0","com.unity.sysroot@1.0.0","com.unity.sysroot.linux-x86_64@1.0.0","com.unity.ext.nunit@1.0.6","com.unity.mathematics@1.2.6","org.nuget.system.runtime.compilerservices.unsafe@5.0.0"],"Results":[]}
+
+'
+      stacktrace: "  at Svelto.ECS.EnginesRoot+EntityReferenceMap.ClaimReference
+        () [0x00000] in C:\\PRGDIR\\Svelto\\Svelto.Benchmarks.Unity\\Packages\\com.sebaslab.svelto.ecs\\Core\\EntityReference\\EnginesRoot.LocatorMap.cs:24
+        \r\n  at Svelto.ECS.EnginesRoot.BuildEntity (Svelto.ECS.EGID entityID, Svelto.ECS.IComponentBuilder[]
+        componentsToBuild, System.Type descriptorType, System.Collections.Generic.IEnumerable`1[T]
+        implementors, System.String caller) [0x00000] in C:\\PRGDIR\\Svelto\\Svelto.Benchmarks.Unity\\Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Entities.cs:40
+        \r\n  at Svelto.ECS.EnginesRoot+GenericEntityFactory.BuildEntity[T] (System.UInt32
+        entityID, Svelto.ECS.ExclusiveBuildGroup groupStructId, System.Collections.Generic.IEnumerable`1[T]
+        implementors, System.String caller) [0x00000] in C:\\PRGDIR\\Svelto\\Svelto.Benchmarks.Unity\\Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.GenericEntityFactory.cs:22
+        \r\n  at Tests.EntitySubmissionBenchmark+<>c__DisplayClass1_0.<TestEntitySubmissionPerformance>b__0
+        () [0x0000f] in C:\\PRGDIR\\Svelto\\Svelto.Benchmarks.Unity\\Assets\\Benchmarks\\EntitySubmissionBenchmark.cs:36
+        \r\n  at Unity.PerformanceTesting.Measurements.MethodMeasurement.ExecuteActionWithCleanupSetup
+        () [0x0001d] in C:\\PRGDIR\\Svelto\\Svelto.Benchmarks.Unity\\Library\\PackageCache\\com.unity.test-framework.performance@2.8.1-preview\\Runtime\\Measurements\\MethodMeasurement.cs:220
+        \r\n  at Unity.PerformanceTesting.Measurements.MethodMeasurement.ExecuteForIterations
+        (System.Int32 iterations) [0x0002c] in C:\\PRGDIR\\Svelto\\Svelto.Benchmarks.Unity\\Library\\PackageCache\\com.unity.test-framework.performance@2.8.1-preview\\Runtime\\Measurements\\MethodMeasurement.cs:251
+        \r\n  at Unity.PerformanceTesting.Measurements.MethodMeasurement.Warmup (System.Int32
+        iterations) [0x00004] in C:\\PRGDIR\\Svelto\\Svelto.Benchmarks.Unity\\Library\\PackageCache\\com.unity.test-framework.performance@2.8.1-preview\\Runtime\\Measurements\\MethodMeasurement.cs:211
+        \r\n  at Unity.PerformanceTesting.Measurements.MethodMeasurement.Run () [0x00009]
+        in C:\\PRGDIR\\Svelto\\Svelto.Benchmarks.Unity\\Library\\PackageCache\\com.unity.test-framework.performance@2.8.1-preview\\Runtime\\Measurements\\MethodMeasurement.cs:128
+        \r\n  at Tests.EntitySubmissionBenchmark.TestEntitySubmissionPerformance
+        () [0x00026] in C:\\PRGDIR\\Svelto\\Svelto.Benchmarks.Unity\\Assets\\Benchmarks\\EntitySubmissionBenchmark.cs:31
+        \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 "
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1049,45 +697,35 @@ MonoBehaviour:
       - Performance
       parentId: 1014
       parentUniqueId: Benchmarks.dll/Tests/[Benchmarks][Tests.EntitySubmissionBenchmark][suite]
-    m_ResultText: "TestEntitySubmissionPerformance (0.271s)\n---\nadd 1000 empty
-      entities Millisecond Median:1.77 Min:1.75 Max:8.82 Avg:2.26 Std:1.75 SampleCount:
-      15 Sum: 33.91\nsubmit 1000 empty entities Millisecond Median:0.54 Min:0.54
-      Max:13.72 Avg:1.42 Std:3.29 SampleCount: 15 Sum: 21.37\nAdd operations Nanosecond
-      Median:449100.00 Min:447500.00 Max:8307400.00 Avg:974040.00 Std:1959925.85
-      SampleCount: 15 Sum: 14610600.00\nTime Millisecond Median:3.19 Min:2.38 Max:3.27
-      Avg:2.83 Std:0.40 SampleCount: 20 Sum: 56.55\nadd 1000 empty entities over
-      10 groups Millisecond Median:2.38 Min:2.35 Max:2.56 Avg:2.40 Std:0.06 SampleCount:
-      15 Sum: 35.98\nAdd 1000 empty entities over 10 groups Millisecond Median:0.84
-      Min:0.83 Max:0.95 Avg:0.85 Std:0.03 SampleCount: 15 Sum: 12.73\n\r\n##performancetestresult2:{\"Name\":\"Tests.EntitySubmissionBenchmark.TestEntitySubmissionPerformance\",\"Version\":\"1\",\"Categories\":[\"Performance\"],\"SampleGroups\":[{\"Name\":\"add
-      1000 empty entities\",\"Unit\":2,\"IncreaseIsBetter\":false,\"Samples\":[8.8191,1.7985,1.7482,1.7562,1.7527000000000002,1.8511000000000003,1.7581,1.7737,1.7778,1.7722,1.7702,2.0258000000000004,1.7606000000000002,1.764,1.7787000000000002],\"Min\":1.7482,\"Max\":8.8191,\"Median\":1.7722,\"Average\":2.2604600000000008,\"StandardDeviation\":1.75415230764036,\"Sum\":33.90690000000001},{\"Name\":\"submit
-      1000 empty entities\",\"Unit\":2,\"IncreaseIsBetter\":false,\"Samples\":[13.7177,0.551,0.5474,0.5434,0.5434,0.5518000000000001,0.5445,0.5436,0.5415,0.5507000000000001,0.5443,0.5614,0.5436,0.5425,0.5436],\"Min\":0.5415,\"Max\":13.7177,\"Median\":0.5443,\"Average\":1.4246933333333336,\"StandardDeviation\":3.2854481132141206,\"Sum\":21.370400000000005},{\"Name\":\"Add
-      operations\",\"Unit\":0,\"IncreaseIsBetter\":false,\"Samples\":[8307400.0,451900.0,450200.0,448500.0,448800.0,451200.0,449100.0,448500.0,447500.0,451000.0,449200.0,462100.0,448800.0,448000.0,448400.0],\"Min\":447500.0,\"Max\":8307400.0,\"Median\":449100.0,\"Average\":974040.0,\"StandardDeviation\":1959925.850230054,\"Sum\":14610600.0},{\"Name\":\"Time\",\"Unit\":2,\"IncreaseIsBetter\":false,\"Samples\":[2.498800000000003,2.3821999999999976,2.390500000000003,2.3928999999999975,2.4236999999999968,2.391599999999997,2.6755999999999888,2.379899999999992,2.3807999999999938,2.394900000000007,3.191700000000001,3.2360000000000008,3.2714,3.2157999999999946,3.213699999999996,3.232300000000002,3.1925000000000027,3.2081000000000019,3.2363,3.2455],\"Min\":2.379899999999992,\"Max\":3.2714,\"Median\":3.191700000000001,\"Average\":2.827709999999999,\"StandardDeviation\":0.4018470852202374,\"Sum\":56.55419999999997},{\"Name\":\"add
-      1000 empty entities over 10 groups\",\"Unit\":2,\"IncreaseIsBetter\":false,\"Samples\":[2.5562,2.5501,2.3543000000000005,2.3839,2.3719,2.3489,2.3899,2.4229000000000004,2.3611,2.3697,2.3782,2.3507000000000004,2.3605,2.3825000000000005,2.402],\"Min\":2.3489,\"Max\":2.5562,\"Median\":2.3782,\"Average\":2.3988533333333339,\"StandardDeviation\":0.06350390924099782,\"Sum\":35.982800000000008},{\"Name\":\"Add
-      1000 empty entities over 10 groups\",\"Unit\":2,\"IncreaseIsBetter\":false,\"Samples\":[0.9523,0.8713000000000001,0.8387,0.8389000000000001,0.8502000000000001,0.8331000000000001,0.8364,0.8376,0.8438,0.8347,0.8437,0.8329000000000001,0.8373,0.8438,0.8338],\"Min\":0.8329000000000001,\"Max\":0.9523,\"Median\":0.8387,\"Average\":0.8485666666666668,\"StandardDeviation\":0.029246348300067977,\"Sum\":12.728500000000003}]}\r\n##performancetestruninfo2:{\"TestSuite\":\"Playmode\",\"Date\":1655038155333,\"Player\":{\"Development\":true,\"ScreenWidth\":1920,\"ScreenHeight\":1200,\"ScreenRefreshRate\":59,\"Fullscreen\":false,\"Vsync\":0,\"AntiAliasing\":0,\"Batchmode\":false,\"RenderThreadingMode\":\"MultiThreaded\",\"GpuSkinning\":false,\"Platform\":\"WindowsEditor\",\"ColorSpace\":\"Gamma\",\"AnisotropicFiltering\":\"Disable\",\"BlendWeights\":\"OneBone\",\"GraphicsApi\":\"Direct3D11\",\"ScriptingBackend\":\"Mono2x\",\"AndroidTargetSdkVersion\":\"AndroidApiLevelAuto\",\"AndroidBuildSystem\":\"Gradle\",\"BuildTarget\":\"StandaloneWindows64\",\"StereoRenderingPath\":\"MultiPass\"},\"Hardware\":{\"OperatingSystem\":\"Windows
-      10  (10.0.19043) 64bit\",\"DeviceModel\":\"System Product Name (System manufacturer)\",\"DeviceName\":\"SEB-SAM\",\"ProcessorType\":\"Intel(R)
-      Core(TM) i7-6700K CPU @ 4.00GHz\",\"ProcessorCount\":8,\"GraphicsDeviceName\":\"NVIDIA
-      GeForce GTX 1060 6GB\",\"SystemMemorySizeMB\":32707},\"Editor\":{\"Version\":\"2021.3.4f1\",\"Branch\":\"2021.3/staging\",\"Changeset\":\"cb45f9cae8b7\",\"Date\":1653503040},\"Dependencies\":[\"com.sebaslab.svelto.common@3.3.2\",\"com.sebaslab.svelto.ecs@3.3.2\",\"com.unity.burst@1.7.0\",\"com.unity.ide.rider@3.0.14\",\"com.unity.ide.visualstudio@2.0.15\",\"com.unity.ide.vscode@1.2.5\",\"com.unity.jobs@0.11.0-preview.6\",\"com.unity.test-framework@1.1.31\",\"com.unity.test-framework.performance@2.8.1-preview\",\"com.unity.textmeshpro@3.0.6\",\"com.unity.timeline@1.6.4\",\"com.unity.toolchain.win-x86_64-linux-x86_64@1.0.0\",\"com.unity.ugui@1.0.0\",\"com.unity.modules.ai@1.0.0\",\"com.unity.modules.androidjni@1.0.0\",\"com.unity.modules.animation@1.0.0\",\"com.unity.modules.assetbundle@1.0.0\",\"com.unity.modules.audio@1.0.0\",\"com.unity.modules.cloth@1.0.0\",\"com.unity.modules.director@1.0.0\",\"com.unity.modules.imageconversion@1.0.0\",\"com.unity.modules.imgui@1.0.0\",\"com.unity.modules.jsonserialize@1.0.0\",\"com.unity.modules.particlesystem@1.0.0\",\"com.unity.modules.physics@1.0.0\",\"com.unity.modules.physics2d@1.0.0\",\"com.unity.modules.screencapture@1.0.0\",\"com.unity.modules.terrain@1.0.0\",\"com.unity.modules.terrainphysics@1.0.0\",\"com.unity.modules.tilemap@1.0.0\",\"com.unity.modules.ui@1.0.0\",\"com.unity.modules.uielements@1.0.0\",\"com.unity.modules.umbra@1.0.0\",\"com.unity.modules.unityanalytics@1.0.0\",\"com.unity.modules.unitywebrequest@1.0.0\",\"com.unity.modules.unitywebrequestassetbundle@1.0.0\",\"com.unity.modules.unitywebrequestaudio@1.0.0\",\"com.unity.modules.unitywebrequesttexture@1.0.0\",\"com.unity.modules.unitywebrequestwww@1.0.0\",\"com.unity.modules.vehicles@1.0.0\",\"com.unity.modules.video@1.0.0\",\"com.unity.modules.vr@1.0.0\",\"com.unity.modules.wind@1.0.0\",\"com.unity.modules.xr@1.0.0\",\"com.unity.modules.subsystems@1.0.0\",\"com.unity.modules.uielementsnative@1.0.0\",\"com.unity.sysroot@1.0.0\",\"com.unity.sysroot.linux-x86_64@1.0.0\",\"com.unity.ext.nunit@1.0.6\",\"com.unity.collections@1.2.3\",\"com.unity.mathematics@1.2.6\",\"org.nuget.system.runtime.compilerservices.unsafe@5.0.0\"],\"Results\":[]}\r\n[12:49:19.582]
-      thread: 2 <b><color=orange> ------> Engines Root has been garbage collected,
-      don't forget to call Dispose()! </color></b> \r\nSvelto.ECS.EnginesRoot:Finalize()
-      (at <a href=\"Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs\"
-      line=\"359\">Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs:359</a>)\n\r\n\r\n[12:49:19.586]
-      thread: 2 <b><color=orange> ------> Engines Root has been garbage collected,
-      don't forget to call Dispose()! </color></b> \r\nSvelto.ECS.EnginesRoot:Finalize()
-      (at <a href=\"Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs\"
-      line=\"359\">Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs:359</a>)\n\r\n\r\n[12:49:19.587]
-      thread: 2 <b><color=orange> ------> Engines Root has been garbage collected,
-      don't forget to call Dispose()! </color></b> \r\nSvelto.ECS.EnginesRoot:Finalize()
-      (at <a href=\"Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs\"
-      line=\"359\">Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs:359</a>)\n\r\n\r\n[12:49:19.587]
-      thread: 2 <b><color=orange> ------> Engines Root has been garbage collected,
-      don't forget to call Dispose()! </color></b> \r\nSvelto.ECS.EnginesRoot:Finalize()
-      (at <a href=\"Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs\"
-      line=\"359\">Packages\\com.sebaslab.svelto.ecs\\Core\\EnginesRoot.Engines.cs:359</a>)"
+    m_ResultText: 'TestEntityCollectionPerformance (0.490s)
+
+      ---
+
+      Casted
+      Iterate Buffer Millisecond Median:0.38 Min:0.33 Max:0.46 Avg:0.37 Std:0.02
+      SampleCount: 130 Sum: 48.16
+
+      Iterate Native Array Millisecond Median:0.45
+      Min:0.39 Max:0.51 Avg:0.44 Std:0.03 SampleCount: 130 Sum: 56.86
+
+      Iterate
+      Managed Array constant size Millisecond Median:0.38 Min:0.33 Max:0.42 Avg:0.37
+      Std:0.02 SampleCount: 130 Sum: 48.16
+
+      Time Millisecond Median:23.11 Min:12.94
+      Max:131.72 Avg:30.20 Std:34.18 SampleCount: 10 Sum: 302.02
+
+      
+
+      ##performancetestresult2:{"Name":"Tests.EntityCollectionBenchmark.TestEntityCollectionPerformance","Version":"1","Categories":["Performance"],"SampleGroups":[{"Name":"Casted
+      Iterate Buffer","Unit":2,"IncreaseIsBetter":false,"Samples":[0.4601,0.43,0.3546,0.42160000000000005,0.40080000000000007,0.35810000000000005,0.3578,0.35550000000000006,0.3819,0.3911,0.4232,0.38270000000000006,0.38180000000000005,0.3788,0.3816,0.3825,0.3819,0.3821,0.3796,0.3819,0.3814,0.3816,0.3815,0.38220000000000006,0.38230000000000005,0.3816,0.39580000000000006,0.3819,0.3816,0.3821,0.3784,0.3851,0.38170000000000006,0.38170000000000006,0.38180000000000005,0.3785,0.37870000000000006,0.3816,0.38220000000000006,0.3815,0.38180000000000005,0.3814,0.3795,0.38220000000000006,0.3816,0.38230000000000005,0.38230000000000005,0.384,0.3819,0.3826,0.38180000000000005,0.37970000000000006,0.382,0.3788,0.38480000000000005,0.3824,0.38270000000000006,0.38130000000000005,0.38170000000000006,0.3819,0.3821,0.3816,0.3854,0.382,0.3819,0.3821,0.38170000000000006,0.3791,0.3816,0.3786,0.3814,0.3815,0.38220000000000006,0.3816,0.3816,0.38170000000000006,0.3881,0.3819,0.3785,0.391,0.382,0.379,0.3788,0.3821,0.3816,0.3598,0.3855,0.35800000000000006,0.3547,0.3672,0.37220000000000005,0.3629,0.3542,0.3541,0.3468,0.3496,0.331,0.32780000000000006,0.3418,0.3276,0.3277,0.3279,0.3417,0.3281,0.3267,0.3312,0.328,0.35810000000000005,0.3261,0.3281,0.34040000000000006,0.33380000000000006,0.3346,0.3388,0.34090000000000006,0.38,0.3647,0.3558,0.367,0.3552,0.3558,0.3582,0.3536,0.3385,0.3279,0.3355,0.3264,0.3295,0.3826,0.3296],"Min":0.3261,"Max":0.4601,"Median":0.3815,"Average":0.3704784615384617,"StandardDeviation":0.023101238676797549,"Sum":48.16220000000002},{"Name":"Iterate
+      Native Array","Unit":2,"IncreaseIsBetter":false,"Samples":[0.451,0.4238,0.4204,0.4253,0.454,0.4444,0.42410000000000006,0.4263,0.45370000000000007,0.4711,0.4646,0.4524,0.4605,0.4555,0.452,0.4519,0.4535,0.4529,0.45220000000000007,0.4535,0.45280000000000006,0.4534,0.45480000000000006,0.45320000000000007,0.45370000000000007,0.4534,0.4526,0.45230000000000006,0.453,0.4526,0.44970000000000007,0.45380000000000006,0.45270000000000007,0.4529,0.45370000000000007,0.452,0.4515,0.4521,0.45270000000000007,0.4534,0.45170000000000007,0.44680000000000005,0.4606,0.4529,0.4521,0.45280000000000006,0.4505,0.4534,0.45370000000000007,0.45330000000000006,0.4521,0.453,0.4524,0.45270000000000007,0.4515,0.4536,0.4531,0.4534,0.4645,0.4529,0.45320000000000007,0.5081,0.45280000000000006,0.4519,0.4529,0.46240000000000006,0.44630000000000005,0.454,0.4529,0.4534,0.452,0.4489,0.46390000000000006,0.44770000000000007,0.4893,0.45270000000000007,0.4535,0.45330000000000006,0.453,0.45320000000000007,0.4536,0.4526,0.45320000000000007,0.4536,0.4526,0.44320000000000006,0.4244,0.44980000000000006,0.441,0.4297,0.4239,0.42300000000000007,0.42250000000000006,0.41750000000000006,0.38980000000000006,0.40840000000000006,0.38770000000000007,0.40130000000000007,0.3895,0.3942,0.40790000000000006,0.387,0.4088,0.3971,0.3876,0.438,0.3895,0.3941,0.38980000000000006,0.3901,0.40090000000000006,0.39530000000000006,0.39530000000000006,0.40130000000000007,0.3986,0.41800000000000006,0.4247,0.42250000000000006,0.4243,0.4228,0.42310000000000005,0.4229,0.4208,0.4027,0.41400000000000006,0.3875,0.395,0.39080000000000006,0.3906,0.39030000000000006],"Min":0.387,"Max":0.5081,"Median":0.452,"Average":0.43742000000000005,"StandardDeviation":0.025040955376220095,"Sum":56.8646},{"Name":"Iterate
+      Managed Array constant size","Unit":2,"IncreaseIsBetter":false,"Samples":[0.35710000000000005,0.3549,0.3773,0.3553,0.41650000000000006,0.3548,0.35660000000000005,0.38520000000000007,0.38320000000000006,0.385,0.41910000000000005,0.386,0.3846,0.38380000000000005,0.38530000000000005,0.3839,0.38570000000000007,0.38520000000000007,0.38470000000000006,0.3849,0.3851,0.38480000000000005,0.38520000000000007,0.38480000000000005,0.38470000000000006,0.38480000000000005,0.40700000000000005,0.3841,0.3854,0.38530000000000005,0.3965,0.3859,0.38520000000000007,0.38430000000000005,0.385,0.38580000000000005,0.38580000000000005,0.3997,0.385,0.3829,0.38530000000000005,0.38470000000000006,0.38530000000000005,0.38480000000000005,0.38520000000000007,0.3845,0.38380000000000005,0.3845,0.38520000000000007,0.3851,0.3846,0.3855,0.3854,0.38570000000000007,0.39440000000000005,0.38580000000000005,0.3844,0.38570000000000007,0.3851,0.3851,0.38530000000000005,0.38530000000000005,0.3855,0.3854,0.3854,0.38480000000000005,0.3859,0.3844,0.3859,0.3854,0.3864,0.38480000000000005,0.38470000000000006,0.38530000000000005,0.38530000000000005,0.38520000000000007,0.38520000000000007,0.3854,0.38580000000000005,0.38430000000000005,0.3855,0.38580000000000005,0.3849,0.38520000000000007,0.37970000000000006,0.35800000000000006,0.37470000000000006,0.35750000000000006,0.36460000000000006,0.35710000000000005,0.37220000000000005,0.3549,0.3552,0.3957,0.33340000000000005,0.3356,0.32630000000000006,0.3297,0.3269,0.3267,0.331,0.33240000000000005,0.32680000000000006,0.33080000000000006,0.327,0.3447,0.3299,0.3289,0.328,0.3267,0.3412,0.3357,0.3332,0.3378,0.39080000000000006,0.35860000000000005,0.37,0.35550000000000006,0.35500000000000006,0.3554,0.3687,0.35710000000000005,0.3274,0.32730000000000006,0.3295,0.32630000000000006,0.3386,0.3271,0.3282,0.3271],"Min":0.32630000000000006,"Max":0.41910000000000005,"Median":0.38470000000000006,"Average":0.3704500000000002,"StandardDeviation":0.023564145678094538,"Sum":48.15850000000003},{"Name":"Time","Unit":2,"IncreaseIsBetter":false,"Samples":[24.2753,23.8262,23.030299999999984,23.11250000000001,23.105999999999996,131.71880000000003,13.329499999999996,12.940600000000018,13.504099999999994,13.17779999999999],"Min":12.940600000000018,"Max":131.71880000000003,"Median":23.105999999999996,"Average":30.202109999999999,"StandardDeviation":34.182985861461848,"Sum":302.0211}]}'
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9e247c31
-      m_LastClickedID: 830219422
+      m_SelectedIDs: 76c4b364
+      m_LastClickedID: 1689502838
       m_ExpandedIDs: 924313b802e192e59c8bfb0052880f08b69df235ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1117,7 +755,7 @@ MonoBehaviour:
       - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 22}
+    m_Window: {fileID: 15}
     m_NewResultList:
     - id: 1000
       uniqueId: '[Svelto.Unity.Benchmarks][suite]'
@@ -1167,36 +805,7 @@ MonoBehaviour:
       selectedCategoryMask: 0
       availableCategories:
       - Uncategorized
---- !u!114 &23
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 800, y: 250}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Package Manager
-    m_Image: {fileID: -2824328813065806953, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 771.3334
-    y: 224
-    width: 1362
-    height: 1016.3334
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
---- !u!114 &24
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1212,7 +821,7 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -1253,7 +862,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 665a0000
     m_LastClickedID: 23142
-    m_ExpandedIDs: 00000000fe4c0000
+    m_ExpandedIDs: 00000000264e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1281,7 +890,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fe4c0000
+    m_ExpandedIDs: 00000000264e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1337,7 +946,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &25
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1353,15 +962,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -369
-    y: 85
-    width: 368
-    height: 1086
+    x: -327.99988
+    y: 72.66667
+    width: 327
+    height: 953
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1379,7 +988,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &26
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1395,15 +1004,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1920
-    y: 85
-    width: 203
-    height: 737
+    x: -1706.6666
+    y: 72.66667
+    width: 180.33333
+    height: 646.3333
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1413,7 +1022,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8ef0ffffecf0fffff6f2ffffe6f3ffff44f4ffff4ef6ffff4cf8ffffaaf8ffff50faffff2efbffff
+      m_ExpandedIDs: 9ae5ffffdee6ffff44e7ffff88e8ffff98e9ffffdceaffffeaebffff2eedffff40eeffff84efffff86f0ffff52f2ffff0ef9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1437,7 +1046,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &27
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1453,15 +1062,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1716
-    y: 85
-    width: 1345
-    height: 737
+    x: -1525.3333
+    y: 72.66667
+    width: 1195.3333
+    height: 646.3333
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1472,7 +1081,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -101, y: -26}
+      snapOffsetDelta: {x: -98.666626, y: -26}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -1743,7 +1352,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &28
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1759,15 +1368,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1557
-    y: 85
-    width: 1101
-    height: 635
+    x: -1525.3333
+    y: 72.66667
+    width: 1195.3333
+    height: 646.3333
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1778,7 +1387,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1101, y: 614}
+  m_TargetSize: {x: 1195.3333, y: 625.3333}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1793,10 +1402,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -550.5
-    m_HBaseRangeMax: 550.5
-    m_VBaseRangeMin: -307
-    m_VBaseRangeMax: 307
+    m_HBaseRangeMin: -398.44443
+    m_HBaseRangeMax: 398.44443
+    m_VBaseRangeMin: -208.44444
+    m_VBaseRangeMax: 208.44444
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1814,29 +1423,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1101
-      height: 614
+      width: 1195.3333
+      height: 625.3333
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 550.5, y: 307}
+    m_Translation: {x: 597.6666, y: 312.66666}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -550.5
-      y: -307
-      width: 1101
-      height: 614
+      x: -597.6666
+      y: -312.66666
+      width: 1195.3333
+      height: 625.3333
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1101, y: 635}
+  m_LastWindowPixelSize: {x: 1792.9999, y: 969.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &29
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1852,15 +1461,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1920
-    y: 843
-    width: 1550
-    height: 328
+    x: -1706.6666
+    y: 740
+    width: 1377.6666
+    height: 285.6667
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

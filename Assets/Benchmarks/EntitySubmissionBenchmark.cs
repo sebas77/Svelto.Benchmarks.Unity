@@ -28,6 +28,9 @@ namespace Tests
             EnginesRoot    enginesRoot = default;
             IEntityFactory entityFactory = default;
             
+            enginesRoot   = new EnginesRoot(scheduler);
+
+            
             Measure.Method(() =>
             {
                 using (Measure.Scope("add 1000 empty entities"))
@@ -45,13 +48,14 @@ namespace Tests
                 }
             }).WarmupCount(5).MeasurementCount(10).SetUp(() =>
                 {
-                    enginesRoot   = new EnginesRoot(scheduler);
                     entityFactory = enginesRoot.GenerateEntityFactory();
                     
                     entityFactory.PreallocateEntitySpace<EntityDescriptor>(TestGroups.Group, 1000);
-                    enginesRoot.Dispose();
                 }
                 ).Run();
+            
+            enginesRoot.Dispose();
+            enginesRoot   = new EnginesRoot(scheduler);
             
             Measure.Method(() =>
             {
@@ -67,14 +71,15 @@ namespace Tests
                 }
             }).WarmupCount(5).MeasurementCount(10).SetUp(() =>
                 {
-                    enginesRoot   = new EnginesRoot(scheduler);
                     entityFactory = enginesRoot.GenerateEntityFactory();
                     
                     for (int i = 0; i < 10; i++)
                         entityFactory.PreallocateEntitySpace<EntityDescriptor>(TestGroups.Group + (uint) i, 100);
-                    enginesRoot.Dispose();                    
+                   
                 }
             ).Run();
+            
+            enginesRoot.Dispose();
         }
     }
 

@@ -33,15 +33,15 @@ namespace Tests
             
             Measure.Method(() =>
             {
-                using (Measure.Scope("add 1000 empty entities"))
+                using (Measure.Scope("add 10000 empty entities"))
                 {
-                    for (uint i = 0; i < 1000; i++)
+                    for (uint i = 0; i < 10000; i++)
                         entityFactory.BuildEntity<EntityDescriptor>(i, TestGroups.Group);
                 }
 
                 using (Measure.ProfilerMarkers(markers))
                 {
-                    using (Measure.Scope("submit 1000 empty entities"))
+                    using (Measure.Scope("submit 10000 empty entities"))
                     {
                         scheduler.SubmitEntities();
                     }
@@ -59,13 +59,13 @@ namespace Tests
             
             Measure.Method(() =>
             {
-                using (Measure.Scope("add 1000 empty entities over 10 groups"))
+                using (Measure.Scope("add 10000 empty entities over 10 groups"))
                 {
-                    for (uint i = 0; i < 1000; i++)
+                    for (uint i = 0; i < 10000; i++)
                         entityFactory.BuildEntity<EntityDescriptor>(i, TestGroups.Group + i % 10);
                 }
                 
-                using (Measure.Scope("Add 1000 empty entities over 10 groups"))
+                using (Measure.Scope("Add 10000 empty entities over 10 groups"))
                 {
                     scheduler.SubmitEntities(); 
                 }

@@ -13,7 +13,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.sebaslab.svelto.common": "3.4.0"
+        "com.sebaslab.svelto.common": "3.4.1"
       }
     },
     "com.unity.ai.navigation": {
@@ -26,7 +26,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.3",
+      "version": "1.8.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -74,18 +74,18 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.sysroot": {
-      "version": "1.0.0",
+      "version": "2.0.5",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.sysroot.linux-x86_64": {
-      "version": "1.0.0",
+      "version": "2.0.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot": "1.0.0"
+        "com.unity.sysroot": "2.0.5"
       },
       "url": "https://packages.unity.com"
     },
@@ -101,11 +101,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework.performance": {
-      "version": "2.8.1-preview",
+      "version": "3.0.0-pre.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.0",
+        "com.unity.test-framework": "1.1.31",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -120,7 +120,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.7.3",
+      "version": "1.7.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -132,12 +132,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.toolchain.win-x86_64-linux-x86_64": {
-      "version": "1.0.0",
+      "version": "2.0.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot": "1.0.0",
-        "com.unity.sysroot.linux-x86_64": "1.0.0"
+        "com.unity.sysroot": "2.0.5",
+        "com.unity.sysroot.linux-x86_64": "2.0.4"
       },
       "url": "https://packages.unity.com"
     },

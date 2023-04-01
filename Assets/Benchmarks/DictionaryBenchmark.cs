@@ -136,7 +136,7 @@ namespace Tests
             for (int i = 0; i < dictionarySize; i++)
                 randomIndices[i] = (uint)UnityEngine.Random.Range(0, 100);
             sveltoDictionary = new SveltoDictionaryNative<uint, Test>(dictionarySize);
-            sveltoDictionary2 = new  Svelto.DataStructures.Native2.SveltoDictionaryNative<uint, Test>(dictionarySize);
+            sveltoDictionary2 = new  Svelto.DataStructures.Native.SveltoDictionaryNative<uint, Test>(dictionarySize);
             standardDictionary = new Dictionary<uint, Test>(dictionarySize);
         }
 
@@ -144,7 +144,7 @@ namespace Tests
         readonly uint[] randomIndices;
 
         SveltoDictionaryNative<uint, Test> sveltoDictionary;
-        Svelto.DataStructures.Native2.SveltoDictionaryNative<uint, Test> sveltoDictionary2;
+        Svelto.DataStructures.Native.SveltoDictionaryNative<uint, Test> sveltoDictionary2;
        readonly Dictionary<uint, Test> standardDictionary;
 
         struct Test
